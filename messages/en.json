@@ -7,5 +7,11 @@
     },
     "Homepage": {
         "title": "titi"
+    },
+    "Header": {
+        "nav1": "project",
+        "nav2": "team",
+        "nav3": "news",
+        "nav4": "contact"
     }
 }

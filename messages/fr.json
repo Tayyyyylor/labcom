@@ -7,5 +7,11 @@
     },
     "Homepage": {
         "title": "toto"
+    },
+    "Header": {
+        "nav1": "Le projet",
+        "nav2": "L'équipe",
+        "nav3": "Actualités",
+        "nav4": "contact"
     }
 }

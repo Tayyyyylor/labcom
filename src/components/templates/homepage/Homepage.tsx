@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import styles from './Homepage.module.scss'
 import HeroBanner from '@/components/molecules /heroBanner/HeroBanner'
@@ -7,8 +6,10 @@ import { FirstBloc } from '@/components/molecules /bloc1/FirstBloc'
 import { SecondBloc } from '@/components/molecules /bloc2/SecondBloc'
 import { ThirdBloc } from '@/components/molecules /bloc3/ThirdBloc'
 import { FourthBloc } from '@/components/molecules /bloc4/FourthBloc'
+import News from '@/components/molecules /news/News'
 
-export default function Homepage() {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default async function Homepage() {
     return (
         <main className={styles.homepage}>
             <HeroBanner />
@@ -18,6 +19,7 @@ export default function Homepage() {
                 <ThirdBloc />
                 <FourthBloc />
             </div>
+            <News />
 
             <Footer />
         </main>

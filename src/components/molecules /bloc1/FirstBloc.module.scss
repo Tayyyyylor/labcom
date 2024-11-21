@@ -1,0 +1,35 @@
+@import '../../../app/[locale]/variables.scss';
+
+.firstBloc {
+    .image {
+        height: auto;
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleSerif {
+        font-family: 'serifBold';
+        color: $darkBlue;
+        font-size: 40px;
+        text-align: center;
+    }
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        padding: 1rem;
+        gap: 20px;
+    }
+}
+
+.textBlue {
+    color: $lightBlue;
+    font-family: 'serifBold';
+    font-size: 20px;
+}

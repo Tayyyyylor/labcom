@@ -2,12 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 import styles from './Logo.module.scss'
 
-export default function Logo() {
+interface LogoProps {
+    color: string
+    width: number
+    height: number
+}
+
+export default function Logo({ color, width, height }: LogoProps) {
     return (
         <Image
-            src="/logobleu.png"
-            width={150}
-            height={60}
+            src={color === 'white' ? '/logoblanc.png' : '/logobleu.png'}
+            width={width}
+            height={height}
             alt="logo"
             className={styles.logo}
         />

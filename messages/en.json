@@ -8,6 +8,12 @@
     "Homepage": {
         "news": "News"
     },
+    "Header": {
+        "nav1": "project",
+        "nav2": "team",
+        "nav3": "news",
+        "nav4": "contact"
+    },
     "Bloc1": {
         "title": "Passionate Experts at the Service of Innovation",
         "subtitle": "From Research to Innovation for Over 30 Years",
@@ -50,10 +56,16 @@
         "text5": "The two partners are committed to developing additive manufacturing (AM) processes for advanced materials (ZTM14N, ZTP10, and ZTP20Z) targeting the aerospace and medical sectors. Although these processes are well-controlled, Z3DLAB's flagship product, spherical titanium powder, currently costs around €400/kg after production, while the market average is approximately €250/kg. The goal is to reduce production costs to about €100/kg by improving the technical aspects of Z3DLAB's proprietary A3P Circular process. A feasibility study began in September 2021, initially producing ZTM14N. While the powder is only available in small quantities, the first additive manufacturing test took place in December 2021, enabling initial analyses.",
         "text6": "Moving forward, the overall project requires a long-term partnership with LSPM to develop powder manufacturing technology and optimized fusion parameters. This LabCom project will have a significant technological and economic impact on Z3DLAB's growth. It will also allow the company to expand its portfolio to include other advanced materials, such as high-entropy alloys (HEA) based on the Ti-Nb-Zr system. Z3DLAB has expertise in this area, which aligns with themes that LSPM has been developing for years."
     },
-    "Header": {
-        "nav1": "project",
-        "nav2": "team",
-        "nav3": "news",
-        "nav4": "contact"
+    "Contact": {
+        "title": "Contact Us",
+        "name": "LSPM - CNRS",
+        "block": "Bâtiments L1/L2",
+        "address": "99 av Jean-Baptiste Clement",
+        "city": "93430 Villetaneuse",
+        "mail": "dirras@sorbonne-paris-nord.fr",
+        "mail2": "hello@optimaa.com"
+    },
+    "FollowUs": {
+        "title": "Follow us"
     }
 }

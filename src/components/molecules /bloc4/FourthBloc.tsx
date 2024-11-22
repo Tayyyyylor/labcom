@@ -13,10 +13,22 @@ export const FourthBloc = () => {
                 <div className={styles.textColumn1}>
                     <p>{t('text1')}</p>
                     <br />
-                    <p>{t('text2')}</p>
+                    <p>
+                        {t.rich('text2', {
+                            strong: (chunks) => (
+                                <span className="bold">{chunks}</span>
+                            ),
+                        })}
+                    </p>
                 </div>
                 <div className={styles.textColumn2}>
-                    <p>{t('text3')}</p>
+                    <p>
+                        {t.rich('text3', {
+                            strong: (chunks) => (
+                                <span className="bold">{chunks}</span>
+                            ),
+                        })}
+                    </p>
                     <br />
                     <p>{t('text4')}</p>
                 </div>

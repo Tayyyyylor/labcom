@@ -5,24 +5,29 @@
         display: flex;
     }
 
-    .textContainer {
+    .divContainer {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .text {
+    .textContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         padding: 2rem;
         justify-items: center;
         height: 100%;
+        color: $lightBlue;
     }
-
+    .text {
+        font-size: 30px;
+        font-family: 'serifBold';
+        text-align: center;
+    }
     .blueLine {
         width: 100%;
-        height: 80px;
+        height: 190px;
         background-color: $lightBlue;
     }
 

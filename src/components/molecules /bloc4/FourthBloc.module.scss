@@ -1,0 +1,69 @@
+@import '../../../app/[locale]/variables.scss';
+
+.fourthBloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+        font-family: 'serifBold';
+        color: $darkBlue;
+        font-size: 40px;
+    }
+    .container {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 100px;
+        padding: 1rem;
+        position: relative;
+        z-index: 1;
+    }
+    .container::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -59px;
+        height: 43px;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0)
+        );
+        z-index: -1;
+    }
+
+    //     .textColumn1 {
+    // flex: 3;
+    //     }
+
+    //     .textColumn2 {
+    //         flex: 3;
+    //     }
+
+    .container2 {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 100px;
+        padding: 1rem;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+    }
+    .imgContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        flex: 1;
+    }
+}

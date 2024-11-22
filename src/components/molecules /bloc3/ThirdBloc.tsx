@@ -5,10 +5,10 @@ import React from 'react'
 import styles from './ThirdBloc.module.scss'
 
 export const ThirdBloc = () => {
-    const t = useTranslations()
+    const t = useTranslations('Bloc3')
     return (
         <article className={styles.thirdBloc}>
-            <Title title={t('Homepage.title3')} />
+            <Title title={t('title')} />
             <section className={styles.container}>
                 <div className={styles.subContainer1}>
                     <Image
@@ -18,12 +18,12 @@ export const ThirdBloc = () => {
                         alt="atr"
                         className={styles.image}
                     />
-                    <div className={styles.textContainer}>
-                        <div className={styles.text}>
-                            <p>toto</p>
-                            <p>toto</p>
-                            <p>toto</p>
-                            <p>tptp</p>
+                    <div className={styles.divContainer}>
+                        <div className={styles.textContainer}>
+                            <p className={styles.text}>{t('subtitle1')}</p>
+                            <p className={styles.text}>{t('subtitle2')}</p>
+                            <p className={styles.text}>{t('subtitle3')}</p>
+                            <p className={styles.text}>{t('subtitle4')}</p>
                         </div>
                         <div className={styles.blueLine} />
                     </div>

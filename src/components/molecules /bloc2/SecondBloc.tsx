@@ -8,7 +8,7 @@ export const SecondBloc = () => {
     const t = useTranslations('Bloc2')
     return (
         <article className={styles.secondBloc}>
-            <Title title={t('title1')} />
+            <Title title={t('title')} />
             <section className={styles.container}>
                 <div className={styles.subContainer1}>
                     <Image
@@ -49,21 +49,37 @@ export const SecondBloc = () => {
                     <div className={styles.textContainer3}>
                         <div className={styles.blueLine} />
                         <div className={styles.gridContainer}>
-                            <div>
-                                <h5>1</h5>
-                                <p>toto</p>
+                            <div className={styles.infosCOntainer}>
+                                <h5 className={styles.gridTitle}>
+                                    {t('grid.title1')}
+                                </h5>
+                                <p className={styles.gridText}>
+                                    {t('grid.desc1')}
+                                </p>
                             </div>
-                            <div>
-                                <h5>2</h5>
-                                <p>toto</p>
+                            <div className={styles.infosCOntainer}>
+                                <h5 className={styles.gridTitle}>
+                                    {t('grid.title2')}
+                                </h5>
+                                <p className={styles.gridText}>
+                                    {t('grid.desc2')}
+                                </p>
                             </div>
-                            <div>
-                                <h5>3</h5>
-                                <p>toto</p>
+                            <div className={styles.infosCOntainer}>
+                                <h5 className={styles.gridTitle}>
+                                    {t('grid.title3')}
+                                </h5>
+                                <p className={styles.gridText}>
+                                    {t('grid.desc3')}
+                                </p>
                             </div>
-                            <div>
-                                <h5>4</h5>
-                                <p>toto</p>
+                            <div className={styles.infosCOntainer}>
+                                <h5 className={styles.gridTitle}>
+                                    {t('grid.title4')}
+                                </h5>
+                                <p className={styles.gridText}>
+                                    {t('grid.desc4')}
+                                </p>
                             </div>
                         </div>
                     </div>

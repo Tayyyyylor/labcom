@@ -17,13 +17,40 @@
         "subdesc": "Ce projet est un accéleratteur d'innovation et un soutien au tissu industriel français"
     },
     "Bloc2": {
-        "title1": "Objectifs Globaux, Verrous Scientifiques et Techniques",
+        "title": "Objectifs Globaux, Verrous Scientifiques et Techniques",
         "text1": "Le projet LabCom OPTIMAA s’appuie sur les objectifs de développement de Z3DLAB et sur l’expertise du LSPM, en particulier dans la métallurgie physique et la métallurgie des poudres, pour optimiser ces matériaux et leurs performances.",
         "text2": "Les matériaux développés par FA, en particulier les alliages de titane comme le TA6V, dominent les marchés médicaux et aéronautiques. Cependant, le TA6V présente des inconvénients tels que la toxicité des éléments d’alliage et sa rigidité comparée à l’os, ainsi que des limitations en termes de fatigue et derésistance mécanique pour l’aéronautique.",
         "text3": "Pour résoudre ces problèmes, Z3DLAB a créé des poudres innovantes comme ZTM14N (pour le médical), ZTP10 (pour la résistance à la fatigue) et ZTP20Z (pour les milieux extrêmes). Ces matériaux ont démontré des perspectives intéressantes en laboratoire, mais une optimisation des paramètres de fusion par FA et un post-traitement par CIC sont indispensables pour un déploiement à l’échelle industrielle.",
         "text4": "La gamme des matériaux métallique proposés à la fabrication additive (FA) reste limitée alors qu’il existe une réelle attente de nouveaux matériaux pour des objets métalliques plus légers ou des composites à matrice métalliques aux propriétés nouvelles ou améliorées, en particulier dans les secteurs liés aux industries automobiles, nucléaires, aéronautiques et médicales.",
         "text5": "Les travaux prévus dans le cadre de la proposition OPTIMAA, permettront non seulement d’apporter de nouvelles solution matériaux (poudres et massifs) mais également d’améliorer le degré de maturité de ces solutions afin de résoudre les problématiques suivantes : dans le domaine médical, on proposera un nouveau matériau (ZTM14N) pour remplacer le titane pur et le TA6V (plus rigide que l’os, présence d’éléments toxiques).",
-        "text6": "Dans le domaine aéronautique, une solution matériau composite à base de TA6V et d’oxyde de zirconium afin de remplacer le TA6V (faible résistance à la fatigue). Dans le domaine aérospatial, une solution matériau de remplacement pour le zirconium (ZTP20Z) sera également mise en œuvre. Pour ce faire, le triptyque « procédé FA—microstructure—propriétés (et performance) » sera au centre des travaux du LabCom OPTIMAA. "
+        "text6": "Dans le domaine aéronautique, une solution matériau composite à base de TA6V et d’oxyde de zirconium afin de remplacer le TA6V (faible résistance à la fatigue). Dans le domaine aérospatial, une solution matériau de remplacement pour le zirconium (ZTP20Z) sera également mise en œuvre. Pour ce faire, le triptyque « procédé FA—microstructure—propriétés (et performance) » sera au centre des travaux du LabCom OPTIMAA. ",
+        "grid": {
+            "title1": "Solution ZTM14N (Ti19Nb14Zr)",
+            "desc1": "Une fois les propriétés mécaniques (Axe 2) de ce matériau biocompatible validées (TRL actuel 5), l’objectif sera de développer un applicatif de ce matériau, en particulier dans le domaine des implants dentaires.",
+            "title2": "Solution ZTP10 (TA6V1Zr0.3O) ",
+            "desc2": "Actuellement ce matériau est à TRL 6. Une étude complète de son comportement en fatigue ainsi que de fluage sera nécessaire afin de passer au TRL 7. L’objectif est d’obtenir une pièce d’application finale qui répond aux normes du marché aéronautique.",
+            "title3": "Solution ZTP20Z (TA6V20Zr)",
+            "desc3": "Ce nouveau matériau très récent nécessite un travail plus poussé que le ZTP10 et ZTM14N. En effet, le TRL de ce matériau est de 4. Une première faisa-bilité pour réduire le coût de revient doit se faire en amont.",
+            "title4": "Titane pur et le TA6V",
+            "desc4": "Plus rigide que l’os, présence d’éléments toxiques, faible résistance à la fatigue."
+        }
+    },
+    "Bloc3": {
+        "title": "Enjeux Et Avantages Du Partenariat",
+        "subtitle1": "Expertise",
+        "subtitle2": "Transition Énergétique",
+        "subtitle3": "Transfert des sciences",
+        "subtitle4": "Dispositif gagnant-gagnant"
+    },
+    "Bloc4": {
+        "title1": "Programme De Travail",
+        "text1": "La feuille de route est décrite via deux axes de recherche caractérisés par un ensemble de jalons clairement identifiés.",
+        "text2": "- Axe de travail #1 : formulation des alliages, production des poudres, optimisation des paramètres de fusion et fabrication des matériaux massifs. Cet axe du LabCom sera piloté par Z3DLAB qui se chargera de la formulation des alliages ; de la production à grande échelle des poudres initiales (solutions internes ou externes) et de la définition des paramètres de fusion. Un ingénieur (H/F) sera recruté par Z3DLAB et s’occupera de la formulation des alliages et de la fusion par SLM. Un doctorant CIFRE sera également recruté par Z3DLAB pour une durée de 36 mois afin de travailler sur le développement de ZTM14N. Z3DLAB bénéficiera d’une expertise croisée avec le LSPM pour affiner les paramètres de fabrication, via la caractérisation microstructurale fine, multiéchelles. Une étape importante consistera en la caractérisation des poudres initiales et des propriétés physiques de celles-ci (morphologie, granulométrie densité, coulabilité). Cette phase s’étalera sur 36 mois.",
+        "text3": "- Axe de travail #2 : Liens microstructures-propriétés-performances. Cet axe relève du domaine d’expertise du LSPM. Il s’agira ici de mener une caractérisation microstructurale complète (défauts de fusion, défauts structuraux, homogénéité chimique, densité…) des matériaux massifs produits après fusion, de mettre en place un programme de post-traitement CIC et d’en évaluer les caractéristiques mécaniques (grâces à des essais quasi statiques et cycliques); les performances mécaniques (en fonction de l’application visée seront mesurées et des essais complémentaires seront à développer (fatigue et fluage, notamment) afin de valider les solutions matériau proposées (voir ci-dessous).",
+        "text4": "Les résultats obtenus dans le cadre de ces deux axes de recherche permettent d’envisager pour chaque matériau des développements en termes d’innovation et d’exploitation commerciale à plus ou moins long terme. Cela se traduirait de la manière suivante pour chacune des solutions matériau proposées. Cette phase est prévue pour durer 42 mois.",
+        "title2": "Retombées scientifiques, techniques et économiques",
+        "text5": "Les deux partenaires s’engagent dans le développement de procédés de fusion additive pour des matériaux avancés (ZTM14N, ZTP10 et ZTP20Z) visant les secteurs aéronautique et médical. Bien que la maîtrise de ces procédés soit établie, le produit phare de la société Z3DLAB est le titane en poudre sphérique, dont le prix moyen sur le marché est de l’ordre de 250€/kg. Actuellement, les poudres produites par Z3DLAB reviennent après production à 400 €/kg. L’objectif est de réduire ces coûts via l’amélioration en termes techniques de son procédé propriétaire A3P Circular, pour l’amener aux environs de 100 €/kg. Un essai de faisabilité technique a commencé en septembre 2021, produisant initialement du ZTM14N. Bien que la poudre soit disponible en petite quantité, la première fusion additive a eu lieu en décembre 2021, permettant de réaliser les premières analyses.",
+        "text6": "Pour aller de l’avant, le projet global requiert un partenariat sur le long terme avec le LSPM pour développer la technologie de fabrication de poudres et les paramètres de fusion optimisés. Ce projet de LabCom aura un impact important sur le développement technologique et économique de Z3DLAB. Il permettra en particulier d’inclure dans le portefeuille de la société des autres matériaux avancés tels que les alliages à haute entropie (HEA)  à base du système Ti-Nb-Zr pour lequel Z3DLAB a la maitrise et qui relève également des thématiques développés par le LSPM depuis des années."
     },
     "Header": {
         "nav1": "project",

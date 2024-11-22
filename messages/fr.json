@@ -6,7 +6,6 @@
         }
     },
     "Homepage": {
-        "title4": "Des Projets Innovants",
         "news": "Actualités"
     },
     "Bloc1": {
@@ -17,7 +16,7 @@
     },
     "Bloc2": {
         "title": "Objectifs Globaux, Verrous Scientifiques et Techniques",
-        "text1": "Le projet LabCom OPTIMAA s’appuie sur les objectifs de développement de Z3DLAB et sur l’expertise du LSPM, en particulier dans la métallurgie physique et la métallurgie des poudres, pour optimiser ces matériaux et leurs performances.",
+        "text1": "<strong>Le projet LabCom OPTIMAA</strong> s’appuie sur les objectifs de développement de Z3DLAB et sur l’expertise du LSPM, en particulier dans la métallurgie physique et la métallurgie des poudres, pour optimiser ces matériaux et leurs performances.",
         "text2": "Les matériaux développés par FA, en particulier les alliages de titane comme le TA6V, dominent les marchés médicaux et aéronautiques. Cependant, le TA6V présente des inconvénients tels que la toxicité des éléments d’alliage et sa rigidité comparée à l’os, ainsi que des limitations en termes de fatigue et derésistance mécanique pour l’aéronautique.",
         "text3": "Pour résoudre ces problèmes, Z3DLAB a créé des poudres innovantes comme ZTM14N (pour le médical), ZTP10 (pour la résistance à la fatigue) et ZTP20Z (pour les milieux extrêmes). Ces matériaux ont démontré des perspectives intéressantes en laboratoire, mais une optimisation des paramètres de fusion par FA et un post-traitement par CIC sont indispensables pour un déploiement à l’échelle industrielle.",
         "text4": "La gamme des matériaux métallique proposés à la fabrication additive (FA) reste limitée alors qu’il existe une réelle attente de nouveaux matériaux pour des objets métalliques plus légers ou des composites à matrice métalliques aux propriétés nouvelles ou améliorées, en particulier dans les secteurs liés aux industries automobiles, nucléaires, aéronautiques et médicales.",

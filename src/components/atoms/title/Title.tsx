@@ -6,5 +6,12 @@ interface TitleProps {
 }
 
 export default function Title({ title }: TitleProps) {
-    return <h2 className={styles.title}>{title}</h2>
+    return (
+        <div className={styles.container}>
+            <h2 className={styles.title}>{title}</h2>
+            <p className={styles.brand}>
+                labcom <span>optimaa</span>
+            </p>
+        </div>
+    )
 }

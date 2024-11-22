@@ -1,8 +1,10 @@
 @import '../../../app/[locale]/variables.scss';
 
 .firstBloc {
-    .image {
-        height: auto;
+    .subdesc {
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
     }
 
     .section {
@@ -22,7 +24,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 30%;
         padding: 1rem;
         gap: 20px;
     }

@@ -20,7 +20,7 @@ export const FirstBloc = () => {
                 <div className={styles.textContainer}>
                     <h3 className={styles.titleSerif}>{t('subtitle')}</h3>
                     <p className={styles.textBlue}>{t('desc')}</p>
-                    <p>{t('subdesc')}</p>
+                    <p className={styles.subdesc}>{t('subdesc')}</p>
                     <Image src="/06.png" width={50} height={50} alt="art" />
                 </div>
             </section>

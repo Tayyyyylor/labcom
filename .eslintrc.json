@@ -1,3 +1,13 @@
 {
-    "extends": ["next/core-web-vitals", "next/typescript"]
+    "extends": ["next/core-web-vitals", "next/typescript"],
+    "rules": {
+        // Pour prévenir les variables et constantes non utilisées
+        "no-unused-vars": [
+            "warn",
+            { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+        ],
+
+        // Pour avertir sur l'utilisation de console.log
+        "no-console": ["warn", { "allow": ["warn", "error"] }]
+    }
 }

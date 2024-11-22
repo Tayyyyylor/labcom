@@ -1,22 +1,60 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 import Title from '@/components/atoms/title/Title'
-import { useTranslations } from 'next-intl'
-import React from 'react'
+import { useLocale, useTranslations } from 'next-intl'
+import Image from 'next/image'
+import React, { useEffect, useState } from 'react'
+import styles from './News.module.scss'
+import axiosInstance from '@/config/axiosInstance'
 
 export default function News() {
     const t = useTranslations()
+    const locale = useLocale()
+
+    const [isLoading, setIsLoading] = useState(false)
+    console.log('isLoading', isLoading)
+    const [news, setNews] = useState<any>([])
+
+    useEffect(() => {
+        const fetchNews = async () => {
+            setIsLoading(true)
+            try {
+                const data = await axiosInstance.get(
+                    `/posts?locale=${locale}&populate=*`
+                )
+                setNews(data?.data?.data)
+            } catch (error) {
+                console.error(
+                    'Erreur lors de la récupération des articles :',
+                    error
+                )
+            } finally {
+                setIsLoading(false)
+            }
+        }
+        fetchNews()
+    }, [locale])
+
     return (
-        <article>
+        <article className={styles.news}>
             <Title title={t('Homepage.news')} />
-            <section>
-                {/* {news.map((article: any) => (
-                <div key={article.id}>
-                  <Image src={article.image.url} alt='toto' width={300} height={200} />
-                    <h3>{article.title}</h3>
-                    <p>{article.desc}</p>
-                </div>
-            ))} */}
+            <section className={styles.newsContainer}>
+                {news.map((article: any) => {
+                    const imageUrl = `http://localhost:1337${article.image.url}`
+                    return (
+                        <div key={article.documentId} className={styles.new}>
+                            <Image
+                                src={imageUrl}
+                                alt="toto"
+                                width={450}
+                                height={300}
+                                className={styles.image}
+                            />
+                            <h3 className={styles.title}>{article.title}</h3>
+                            <p>{article.desc[0]?.children[0]?.text}</p>
+                        </div>
+                    )
+                })}
             </section>
         </article>
     )

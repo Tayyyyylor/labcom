@@ -19,13 +19,13 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        padding: 2rem;
+        padding: 1rem;
         justify-items: center;
         height: 100%;
         color: $lightBlue;
     }
     .text {
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'serifBold';
         text-align: center;
         @media screen and (min-width: $desktop) {

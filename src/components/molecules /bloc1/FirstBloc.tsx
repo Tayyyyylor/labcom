@@ -21,7 +21,7 @@ export const FirstBloc = () => {
                     <h3 className={styles.titleSerif}>{t('subtitle')}</h3>
                     <p className={styles.textBlue}>{t('desc')}</p>
                     <p>{t('subdesc')}</p>
-                    <Image src="/01.png" width={50} height={50} alt="art" />
+                    <Image src="/06.png" width={50} height={50} alt="art" />
                 </div>
             </section>
         </article>

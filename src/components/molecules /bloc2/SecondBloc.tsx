@@ -1,11 +1,14 @@
+'use client'
 import Title from '@/components/atoms/title/Title'
 import Image from 'next/image'
 import React from 'react'
 import styles from './SecondBloc.module.scss'
 import { useTranslations } from 'next-intl'
+import useMobile from '@/hooks/useMobile'
 
 export const SecondBloc = () => {
     const t = useTranslations('Bloc2')
+    const isMobile = useMobile()
     return (
         <article className={styles.secondBloc}>
             <Title title={t('title')} />
@@ -65,7 +68,8 @@ export const SecondBloc = () => {
                         className={styles.image}
                     />
                     <div className={styles.textContainer3}>
-                        <div className={styles.blueLine} />
+                        {!isMobile && <div className={styles.blueLine} />}
+
                         <div className={styles.gridContainer}>
                             <div className={styles.infosCOntainer}>
                                 <h5 className={styles.gridTitle}>

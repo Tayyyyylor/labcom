@@ -3,6 +3,10 @@
 .thirdBloc {
     .subContainer1 {
         display: flex;
+        flex-direction: column;
+        @media screen and (min-width: $desktop) {
+            flex-direction: row;
+        }
     }
 
     .divContainer {
@@ -21,9 +25,12 @@
         color: $lightBlue;
     }
     .text {
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'serifBold';
         text-align: center;
+        @media screen and (min-width: $desktop) {
+            font-size: 30px;
+        }
     }
     .blueLine {
         width: 100%;
@@ -41,6 +48,7 @@
     }
 
     .image {
+        width: 100%;
         height: auto;
     }
 }

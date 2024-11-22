@@ -2,21 +2,39 @@
 
 .firstBloc {
     .subdesc {
-        font-size: 12px;
-        width: 50%;
+        font-size: 15px;
         text-align: center;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 12px;
+            width: 50%;
+        }
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
     }
 
     .section {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        @media screen and (min-width: $desktop) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 
     .titleSerif {
-        font-family: 'serifBold';
+        font-size: 25px;
         color: $darkBlue;
-        font-size: 40px;
+        font-family: 'serifBold';
         text-align: center;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 40px;
+        }
     }
     .textContainer {
         display: flex;

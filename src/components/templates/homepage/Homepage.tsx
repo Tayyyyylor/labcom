@@ -12,14 +12,15 @@ import News from '@/components/molecules /news/News'
 export default async function Homepage() {
     return (
         <main className={styles.homepage}>
+            <div style={{ height: '80px' }}></div>
             <HeroBanner />
             <div className={styles.container}>
                 <FirstBloc />
                 <SecondBloc />
                 <ThirdBloc />
                 <FourthBloc />
+                <News />
             </div>
-            <News />
 
             <Footer />
         </main>

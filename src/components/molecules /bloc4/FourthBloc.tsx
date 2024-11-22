@@ -44,6 +44,7 @@ export const FourthBloc = () => {
                         alt="illustration-features-tab-1"
                         width={400}
                         height={300}
+                        className={styles.image}
                     />
                     <p>{t('text6')}</p>
                 </div>
@@ -53,6 +54,7 @@ export const FourthBloc = () => {
                 alt="illustration-features-tab-2"
                 width={400}
                 height={300}
+                className={styles.image}
             />
         </article>
     )

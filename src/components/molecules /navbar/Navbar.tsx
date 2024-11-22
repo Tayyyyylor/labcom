@@ -1,11 +1,17 @@
+'use client'
 import LocalSwitcher from '@/components/atoms/localSwitcher/LocalSwitcher'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 import styles from './Navbar.module.scss'
+import useMobile from '@/hooks/useMobile'
 
 export default function Navbar() {
     const t = useTranslations()
-    return (
+    const isMobile = useMobile()
+    console.log('isMobile', isMobile)
+    return isMobile ? (
+        <nav>toto</nav>
+    ) : (
         <nav className={styles.nav}>
             <ul className={styles.navContainer}>
                 <li>{t('Header.nav1')}</li>

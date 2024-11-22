@@ -2,10 +2,16 @@
 
 .footer {
     display: flex;
-    align-items: center;
     width: 100%;
+    gap: 30px;
     color: white;
     background-color: $darkBlue;
     padding: 2rem;
-    justify-content: space-between;
+    flex-direction: column;
+
+    @media screen and (min-width: $desktop) {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }

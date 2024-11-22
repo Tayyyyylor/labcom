@@ -6,50 +6,75 @@
     align-items: center;
 
     p {
-        text-align: center;
+        text-align: justify;
+        @media screen and (min-width: $desktop) {
+            text-align: center;
+        }
     }
+
     h4 {
+        font-size: 25px;
         text-align: center;
         font-family: 'serifBold';
         color: $darkBlue;
-        font-size: 40px;
+        margin-bottom: 30px;
+        @media screen and (min-width: $desktop) {
+            font-size: 40px;
+            margin: 0;
+        }
     }
+
     .container {
+        flex-direction: column;
         display: flex;
-        gap: 50px;
         margin-bottom: 100px;
         padding: 1rem;
-        position: relative;
-        z-index: 1;
+        gap: 50px;
+        @media screen and (min-width: $desktop) {
+            position: relative;
+            z-index: 1;
+        }
     }
     .container::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -59px;
-        height: 43px;
-        background: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0)
-        );
-        z-index: -1;
+        @media screen and (min-width: $desktop) {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -59px;
+            height: 43px;
+            background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0)
+            );
+            z-index: -1;
+        }
     }
 
     .container2 {
         display: flex;
         gap: 50px;
         margin-bottom: 100px;
-        padding: 1rem;
+        flex-direction: column;
+        @media screen and (min-width: $desktop) {
+            padding: 1rem;
+            flex-direction: row;
+        }
+    }
+
+    .image {
+        width: 100%;
     }
 
     .textContainer {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        flex: 1;
+        @media screen and (min-width: $desktop) {
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+        }
     }
     .imgContainer {
         display: flex;

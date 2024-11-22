@@ -19,7 +19,13 @@ export const SecondBloc = () => {
                         className={styles.image}
                     />
                     <div className={styles.textContainer1}>
-                        <p>{t('text1')}</p>
+                        <p>
+                            {t.rich('text1', {
+                                strong: (chunks) => (
+                                    <span className="bold">{chunks}</span>
+                                ),
+                            })}
+                        </p>
                         <p>{t('text2')}</p>
                         <p>{t('text3')}</p>
                     </div>
@@ -27,8 +33,20 @@ export const SecondBloc = () => {
                 <div className={styles.subContainer2}>
                     <div className={styles.textContainer2}>
                         <p>{t('text4')}</p>
-                        <p>{t('text5')}</p>
-                        <p>{t('text6')}</p>
+                        <p>
+                            {t.rich('text5', {
+                                strong: (chunks) => (
+                                    <span className="bold">{chunks}</span>
+                                ),
+                            })}
+                        </p>
+                        <p>
+                            {t.rich('text6', {
+                                strong: (chunks) => (
+                                    <span className="bold">{chunks}</span>
+                                ),
+                            })}
+                        </p>
                     </div>
                     <Image
                         src="/04.png"

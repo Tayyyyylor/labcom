@@ -1,0 +1,10 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+        font-size: 25px;
+        margin-bottom: 1rem;
+        font-family: 'serifBold';
+    }
+}

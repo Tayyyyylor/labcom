@@ -8,6 +8,12 @@
     "Homepage": {
         "news": "Actualités"
     },
+    "Header": {
+        "nav1": "Le projet",
+        "nav2": "L'équipe",
+        "nav3": "Actualités",
+        "nav4": "contact"
+    },
     "Bloc1": {
         "title": "Des Experts Passionnés Au Service De L'innovation",
         "subtitle": "De la recherche à l'innovation depuis plus de 30 ans",
@@ -50,10 +56,16 @@
         "text5": "Les deux partenaires s’engagent dans le développement de procédés de fusion additive pour des matériaux avancés (ZTM14N, ZTP10 et ZTP20Z) visant les secteurs aéronautique et médical. Bien que la maîtrise de ces procédés soit établie, le produit phare de la société Z3DLAB est le titane en poudre sphérique, dont le prix moyen sur le marché est de l’ordre de 250€/kg. Actuellement, les poudres produites par Z3DLAB reviennent après production à 400 €/kg. L’objectif est de réduire ces coûts via l’amélioration en termes techniques de son procédé propriétaire A3P Circular, pour l’amener aux environs de 100 €/kg. Un essai de faisabilité technique a commencé en septembre 2021, produisant initialement du ZTM14N. Bien que la poudre soit disponible en petite quantité, la première fusion additive a eu lieu en décembre 2021, permettant de réaliser les premières analyses.",
         "text6": "Pour aller de l’avant, le projet global requiert un partenariat sur le long terme avec le LSPM pour développer la technologie de fabrication de poudres et les paramètres de fusion optimisés. Ce projet de LabCom aura un impact important sur le développement technologique et économique de Z3DLAB. Il permettra en particulier d’inclure dans le portefeuille de la société des autres matériaux avancés tels que les alliages à haute entropie (HEA)  à base du système Ti-Nb-Zr pour lequel Z3DLAB a la maitrise et qui relève également des thématiques développés par le LSPM depuis des années."
     },
-    "Header": {
-        "nav1": "Le projet",
-        "nav2": "L'équipe",
-        "nav3": "Actualités",
-        "nav4": "contact"
+    "Contact": {
+        "title": "Contactez-nous",
+        "name": "LSPM - CNRS",
+        "block": "Bâtiments L1/L2",
+        "address": "99 av Jean-Baptiste Clement",
+        "city": "93430 Villetaneuse",
+        "mail": "dirras@sorbonne-paris-nord.fr",
+        "mail2": "hello@optimaa.com"
+    },
+    "FollowUs": {
+        "title": "Suivez-nous"
     }
 }

@@ -40,7 +40,7 @@ export default function News() {
             <Title title={t('Homepage.news')} />
             <section className={styles.newsContainer}>
                 {news.map((article: any) => {
-                    const imageUrl = `${process.env.NEXT_PUBLIC_STRAPI_BASE_URL_IMG}${article.image.url}`;
+                    const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`;
                     return (
                         <div key={article.documentId} className={styles.new}>
                             <Image

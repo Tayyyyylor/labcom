@@ -49,6 +49,7 @@ export default function News() {
                                 width={450}
                                 height={300}
                                 className={styles.image}
+                                unoptimized
                             />
                             <h3 className={styles.title}>{article.title}</h3>
                             <p>{article.desc[0]?.children[0]?.text}</p>

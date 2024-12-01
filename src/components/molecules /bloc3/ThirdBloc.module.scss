@@ -1,6 +1,7 @@
 @import '../../../app/[locale]/variables.scss';
 
 .thirdBloc {
+    color: $darkBlue;
     .container {
         display: flex;
         flex-direction: column;
@@ -25,6 +26,7 @@
         justify-items: center;
         height: 100%;
         color: $lightBlue;
+        align-items: center;
     }
     .text {
         font-size: 16px;
@@ -39,18 +41,21 @@
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        justify-content: space-between;
     }
     .blueLine {
         width: 100%;
         background-color: $lightBlue;
-        padding: 2rem;
+        padding: 1rem 2rem;
+        margin-top: 40px;
     }
 
     .blueLineText {
         font-family: 'helveticaLight';
         text-align: center;
         color: white;
+        line-height: 1.1;
+        font-size: 14px;
+        letter-spacing: 0.3px;
         @media screen and (min-width: $desktop) {
         }
     }
@@ -66,8 +71,12 @@
 
     .descContainer {
         display: flex;
-        padding: 1rem;
         gap: 35px;
+        padding: 2rem 1rem;
+        font-size: 14px;
+        line-height: 1.3;
+        width: 100%;
+        justify-content: center;
     }
 
     .linesContainer {
@@ -78,14 +87,14 @@
         background-color: $darkBlue;
         display: block;
         height: auto;
-        width: 200px;
+        width: 20px;
     }
 
     .lightLine {
         background-color: $lightBlue;
         display: block;
         height: auto;
-        width: 200px;
+        width: 20px;
     }
 
     .banniere {

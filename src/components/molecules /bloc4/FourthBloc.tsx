@@ -11,10 +11,11 @@ export const FourthBloc = () => {
             <Title title={t('title1')} />
             <section className={styles.container}>
                 <div className={styles.textColumn1}>
-                    <p>{t('text1')}</p>
+                    <p>{t.rich('text1', { br: () => <br /> })}</p>
                     <br />
                     <p>
                         {t.rich('text2', {
+                            br: () => <br />,
                             strong: (chunks) => (
                                 <span className="bold">{chunks}</span>
                             ),
@@ -24,19 +25,22 @@ export const FourthBloc = () => {
                 <div className={styles.textColumn2}>
                     <p>
                         {t.rich('text3', {
+                            br: () => <br />,
                             strong: (chunks) => (
                                 <span className="bold">{chunks}</span>
                             ),
                         })}
                     </p>
                     <br />
-                    <p>{t('text4')}</p>
+                    <p>{t.rich('text4', { br: () => <br /> })}</p>
                 </div>
             </section>
             <section className={styles.container2}>
                 <div className={styles.textContainer}>
-                    <h4>{t('title2')}</h4>
-                    <p>{t('text5')}</p>
+                    <h4 className={styles.title}>
+                        {t.rich('title2', { br: () => <br /> })}
+                    </h4>
+                    <p>{t.rich('text5', { br: () => <br /> })}</p>
                 </div>
                 <div className={styles.imgContainer}>
                     <Image
@@ -44,8 +48,9 @@ export const FourthBloc = () => {
                         alt="illustration-features-tab-1"
                         width={500}
                         height={500}
+                        className={styles.img}
                     />
-                    <p>{t('text6')}</p>
+                    <p>{t.rich('text6', { br: () => <br /> })}</p>
                 </div>
             </section>
             <Image

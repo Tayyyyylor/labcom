@@ -1,21 +1,57 @@
+@import '../../../app/[locale]/variables.scss';
+
 .brands {
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
+    p {
+        text-align: center;
+    }
 }
 
 .firstContainer {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: 'serifBold';
+    font-size: 28px;
+    color: $darkBlue;
+}
+
+.subtitleDesc {
+    color: $darkBlue;
+    font-family: 'helveticaMedium';
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .secondContainer {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
 }
 
 .image {
     width: 100%;
     height: auto;
+}
+
+.name {
+    color: white;
+    background-color: $lightBlue;
+    padding: 10px;
+    font-family: 'serifBold';
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.image2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
 }

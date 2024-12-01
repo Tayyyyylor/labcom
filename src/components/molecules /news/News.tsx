@@ -17,7 +17,7 @@ export default function News() {
         const fetchNews = async () => {
             try {
                 const data = await axiosInstance.get(
-                    `/posts?locale=${locale}&populate=*`
+                    `/posts?locale=${locale}&populate=*&sort[order]=asc`
                 )
                 setNews(data?.data?.data)
             } catch (error) {

@@ -6,5 +6,14 @@
         font-size: 25px;
         margin-bottom: 1rem;
         font-family: 'serifBold';
+        text-transform: uppercase;
+    }
+
+    .mainContainer {
+        display: flex;
+        gap: 25px;
+        font-size: 14px;
+        line-height: 1.3;
+        letter-spacing: 0.6px;
     }
 }

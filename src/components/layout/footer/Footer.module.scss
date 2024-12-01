@@ -1,16 +1,29 @@
 @import '../../../app/[locale]/variables.scss';
 
 .footer {
-    display: flex;
-    width: 100%;
-    gap: 30px;
-    color: white;
-    background-color: $darkBlue;
-    padding: 2rem;
-    flex-direction: column;
-
     @media screen and (min-width: $desktop) {
-        justify-content: space-between;
-        flex-direction: row;
+    }
+
+    .containerContact {
+        display: flex;
+        width: 100%;
+        color: white;
+        justify-content: space-around;
+        background-color: $darkBlue;
+        padding: 2rem;
+    }
+
+    .containerCredits {
+        background-color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .credits {
+        font-size: 12px;
+        font-family: 'helveticaMedium';
+        color: $darkBlue;
     }
 }

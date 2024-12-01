@@ -16,31 +16,39 @@ export default function Brands() {
                     className={styles.image}
                 />
                 <h3 className={styles.subtitle}>{t('title1')}</h3>
-                <h4>{t('subtitle1')}</h4>
-                <p>{t('text1')}</p>
-                <p>{t('text2')}</p>
-                <p>{t('text3')}</p>
-                <p>{t('text4')}</p>
-                <h5>Madjid DJEMAI</h5>
-                <p>{t('text5')}</p>
-                <p>{t('text6')}</p>
-                <p>{t('text7')}</p>
+                <h4 className={styles.subtitleDesc}>{t('subtitle1')}</h4>
+                <p>{t.rich('text1', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text2', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text3', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text4', { br: () => <br /> })}</p>
+                <h5 className={styles.name}>Madjid DJEMAI</h5>
+                <p>{t.rich('text5', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text6', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text7', { br: () => <br /> })}</p>
             </section>
             <section className={styles.secondContainer}>
-                <h3>{t('title2')}</h3>
-                <h4>{t('subtitle2')}</h4>
-                <p>{t('text8')}</p>
-                <p>{t('text9')}</p>
-                <h5>Guy DIRRAS</h5>
-                <p>{t('text10')}</p>
-                <p>{t('text11')}</p>
-                <p>{t('text12')}</p>
+                <h3 className={styles.subtitle}>{t('title2')}</h3>
+                <h4 className={styles.subtitleDesc}>{t('subtitle2')}</h4>
+                <p>{t.rich('text8', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text9', { br: () => <br /> })}</p>
+                <h5 className={styles.name}>Guy DIRRAS</h5>
+                <p>{t.rich('text10', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text11', { br: () => <br /> })}</p>
+                <br />
+                <p>{t.rich('text12', { br: () => <br /> })}</p>
                 <Image
                     src="/img2Brand.png"
                     alt="brands"
                     width={500}
                     height={100}
-                    className={styles.image}
+                    className={styles.image2}
                 />
             </section>
         </article>

@@ -15,27 +15,29 @@ export const SecondBloc = () => {
                     <Image
                         src="/img1Bloc2.png"
                         width={400}
-                        height={300}
+                        height={400}
                         alt="art"
                         className={styles.image}
                     />
                     <div className={styles.textContainer1}>
                         <p>
                             {t.rich('text1', {
+                                br: () => <br />,
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
                             })}
                         </p>
-                        <p>{t('text2')}</p>
-                        <p>{t('text3')}</p>
+                        <p>{t.rich('text2', { br: () => <br /> })}</p>
+                        <p>{t.rich('text3', { br: () => <br /> })}</p>
                     </div>
                 </div>
                 <div className={styles.subContainer2}>
                     <div className={styles.textContainer2}>
-                        <p>{t('text4')}</p>
+                        <p>{t.rich('text4', { br: () => <br /> })}</p>
                         <p>
                             {t.rich('text5', {
+                                br: () => <br />,
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
@@ -43,6 +45,7 @@ export const SecondBloc = () => {
                         </p>
                         <p>
                             {t.rich('text6', {
+                                br: () => <br />,
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
@@ -67,7 +70,9 @@ export const SecondBloc = () => {
                     />
                     <div className={styles.textContainer3}>
                         <div className={styles.blueLine}>
-                            <p className={styles.blueLineText}>{t('desc')}</p>
+                            <p className={styles.blueLineText}>
+                                {t.rich('desc', { br: () => <br /> })}
+                            </p>
                         </div>
 
                         <div className={styles.gridContainer}>

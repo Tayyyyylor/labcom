@@ -16,16 +16,16 @@
     },
     "Bloc1": {
         "title": "Passionate Experts<br></br>at the Service of Innovation",
-        "subtitle": "From Research to Innovation for Over 30 Years",
+        "subtitle": "From Research to<br></br>Innovation for<br></br>Over 30 Years",
         "desc": "An Innovation Accelerator",
         "subdesc": "This project serves as an accelerator of innovation and a support for the French industrial sector."
     },
     "Bloc2": {
         "title": "Global Objectives, Scientific<br></br>and Technical Challenges",
         "desc": "OPTIMAA: OPTImisation des Microstructures et des Propriétés Mécaniques d'Alliages Métalliques Obtenues par Fabrication Additive",
-        "text1": "<strong>The LabCom OPTIMAA project </strong> is grounded in <strong>Z3DLAB's</strong> development goals and the expertise of <strong>LSPM</strong>, particularly in physical metallurgy and powder metallurgy, to optimize these materials and their performance.",
-        "text2": "Materials developed through additive manufacturing (AM), especially titanium alloys like TA6V, dominate the medical and aerospace markets. However, TA6V has drawbacks such as the toxicity of its alloying elements, its stiffness compared to bone, and limitations in fatigue and mechanical resistance for aerospace applications.",
-        "text3": "To address these issues, Z3DLAB has developed innovative powders such as ZTM14N (for medical applications), ZTP10 (for fatigue resistance), and ZTP20Z (for extreme environments). These materials have shown promising laboratory results, but optimization of AM melting parameters and post-treatment using CIC is essential for scaling up to industrial deployment.",
+        "text1": "<strong>The LabCom OPTIMAA project </strong> is grounded in <strong>Z3DLAB's</strong> development goals<br></br>and the expertise of <strong>LSPM</strong>, particularly in physical metallurgy and powder metallurgy,<br></br>to optimize these materials and their performance.",
+        "text2": "Materials developed through additive manufacturing (AM), especially titanium alloys like<br></br>TA6V, dominate the medical and aerospace markets. However, TA6V<br></br>has drawbacks such as the toxicity of its alloying elements,<br></br>its stiffness compared to bone, and limitations in fatigue and mechanical resistance for aerospace applications.",
+        "text3": "To address these issues, Z3DLAB has developed innovative powders such as<br></br>ZTM14N (for medical applications), ZTP10 (for fatigue resistance), and ZTP20Z (for<br></br>extreme environments). These materials have shown promising<br></br>laboratory results, but optimization of AM melting parameters and post-treatment<br></br>using CIC is essential for scaling up to industrial deployment.",
         "text4": "The range of metal materials offered for additive manufacturing (AM) remains limited while there is a real expectation of new materials for lighter metal devices or metal matrix composites with new or improved properties, particularly in related sectors such as the automotive, nuclear, aeronautical, and medical industries.",
         "text5": "The work planned as part of the OPTIMAA proposal will not only provide <strong> new material solutions (powders and bulk materials and protypes)</strong> but also improve the degree of maturity of these solutions to resolve the following issues: in the medical field, we will offer a new material (ZTM14N) to replace pure titanium and TA6V (stiffer than bone, presence of toxic elements…).",
         "text6": "In the aeronautical field, a composite material solution based on TA6V and zirconium oxide to replace TA6V (low fatigue resistance). In the aerospace sector, a replacement material solution for zirconium (ZTP20Z) will also be implemented. To do this, the triptych <strong>« AM process—microstructure—properties (and performance) »</strong> will be at the center of the work of LabCom OPTIMAA.",

@@ -1,0 +1,38 @@
+@import '../../../app/[locale]/variables.scss';
+.team {
+    margin-bottom: 100px;
+}
+.teamContainer {
+    display: flex;
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+    padding: 1rem;
+    justify-content: space-around;
+    box-shadow: 1px 5px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    color: $darkBlue;
+    font-family: 'serifBold';
+    font-size: 24px;
+    letter-spacing: 1.3px;
+}
+
+.desc {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align: center;
+    width: 300px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    flex: 1;
+}

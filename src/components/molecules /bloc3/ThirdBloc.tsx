@@ -4,42 +4,52 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import React from 'react'
 import styles from './ThirdBloc.module.scss'
-import useMobile from '@/hooks/useMobile'
 
 export const ThirdBloc = () => {
     const t = useTranslations('Bloc3')
-    const isMobile = useMobile()
     return (
         <article className={styles.thirdBloc}>
             <Title title={t('title')} />
             <section className={styles.container}>
                 <div className={styles.subContainer1}>
                     <Image
-                        src="/06.png"
-                        width={400}
-                        height={300}
+                        src="/img1Bloc3.png"
+                        width={500}
+                        height={400}
                         alt="atr"
                         className={styles.image}
                     />
-                    <div className={styles.divContainer}>
-                        <div className={styles.textContainer}>
-                            <p className={styles.text}>{t('subtitle1')}</p>
-                            <p className={styles.text}>{t('subtitle2')}</p>
-                            <p className={styles.text}>{t('subtitle3')}</p>
-                            <p className={styles.text}>{t('subtitle4')}</p>
+                    <div className={styles.blueLineContainer}>
+                        <div className={styles.blueLine}>
+                            <p className={styles.blueLineText}>
+                                {t('blueLine')}
+                            </p>
                         </div>
-                        {!isMobile && <div className={styles.blueLine} />}
+                        <div className={styles.divContainer}>
+                            <div className={styles.textContainer}>
+                                <p className={styles.text}>{t('subtitle1')}</p>
+                                <p className={styles.text}>{t('subtitle2')}</p>
+                                <p className={styles.text}>{t('subtitle3')}</p>
+                                <p className={styles.text}>{t('subtitle4')}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.subContainer2}>
-                    {!isMobile && <div className={styles.darkBloc} />}
-
+                <div className={styles.linesContainer}>
+                    <span className={styles.darkLine} />
+                    <div className={styles.descContainer}>
+                        <p>{t('text1')}</p>
+                        <p>{t('text2')}</p>
+                    </div>
+                    <span className={styles.lightLine} />
+                </div>
+                <div>
                     <Image
-                        src="/07.png"
-                        width={400}
-                        height={300}
+                        src="/img2Bloc3.png"
+                        width={500}
+                        height={400}
                         alt="atr"
-                        className={styles.image}
+                        className={styles.banniere}
                     />
                 </div>
             </section>

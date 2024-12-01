@@ -25,7 +25,6 @@
     }
 
     .container {
-        flex-direction: column;
         display: flex;
         margin-bottom: 100px;
         padding: 1rem;
@@ -71,7 +70,6 @@
         display: flex;
         flex-direction: column;
         @media screen and (min-width: $desktop) {
-            justify-content: space-between;
             align-items: center;
             flex: 1;
         }
@@ -81,6 +79,14 @@
         flex-direction: column;
         gap: 50px;
         align-items: center;
+        flex: 1;
+    }
+
+    .textColumn1 {
+        flex: 1;
+    }
+
+    .textColumn2 {
         flex: 1;
     }
 }

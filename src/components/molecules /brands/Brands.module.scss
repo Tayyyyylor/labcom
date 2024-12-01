@@ -1,0 +1,21 @@
+.brands {
+    display: flex;
+    gap: 50px;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}

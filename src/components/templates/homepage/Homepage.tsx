@@ -7,6 +7,8 @@ import { SecondBloc } from '@/components/molecules /bloc2/SecondBloc'
 import { ThirdBloc } from '@/components/molecules /bloc3/ThirdBloc'
 import { FourthBloc } from '@/components/molecules /bloc4/FourthBloc'
 import News from '@/components/molecules /news/News'
+import Team from '@/components/molecules /team/Team'
+import Brands from '@/components/molecules /brands/Brands'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default async function Homepage() {
@@ -20,6 +22,8 @@ export default async function Homepage() {
                 <ThirdBloc />
                 <FourthBloc />
                 <News />
+                <Team />
+                <Brands />
             </div>
 
             <Footer />

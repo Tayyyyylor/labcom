@@ -11,7 +11,7 @@ export default function News() {
     const t = useTranslations()
     const locale = useLocale()
 
-    const [isLoading, setIsLoading] = useState(false)
+    const [isLoading, setIsLoading] = useState(true)
     console.log('isLoading', isLoading)
     const [news, setNews] = useState<any>([])
 
@@ -40,7 +40,7 @@ export default function News() {
             <Title title={t('Homepage.news')} />
             <section className={styles.newsContainer}>
                 {news.map((article: any) => {
-                    const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`;
+                    const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`
                     return (
                         <div key={article.documentId} className={styles.new}>
                             <Image

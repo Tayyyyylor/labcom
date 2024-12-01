@@ -4,18 +4,16 @@ import Image from 'next/image'
 import React from 'react'
 import styles from './SecondBloc.module.scss'
 import { useTranslations } from 'next-intl'
-import useMobile from '@/hooks/useMobile'
 
 export const SecondBloc = () => {
     const t = useTranslations('Bloc2')
-    const isMobile = useMobile()
     return (
         <article className={styles.secondBloc}>
-            <Title title={t('title')} />
+            <Title title={t.rich('title', { br: () => <br /> })} />
             <section className={styles.container}>
                 <div className={styles.subContainer1}>
                     <Image
-                        src="/03.png"
+                        src="/img1Bloc2.png"
                         width={400}
                         height={300}
                         alt="art"
@@ -52,7 +50,7 @@ export const SecondBloc = () => {
                         </p>
                     </div>
                     <Image
-                        src="/04.png"
+                        src="/img2Bloc2.png"
                         width={400}
                         height={300}
                         alt="art"
@@ -61,14 +59,16 @@ export const SecondBloc = () => {
                 </div>
                 <div className={styles.subContainer3}>
                     <Image
-                        src="/05.png"
+                        src="/img3Bloc2.png"
                         width={400}
                         height={300}
                         alt="art"
                         className={styles.image}
                     />
                     <div className={styles.textContainer3}>
-                        {!isMobile && <div className={styles.blueLine} />}
+                        <div className={styles.blueLine}>
+                            <p className={styles.blueLineText}>{t('desc')}</p>
+                        </div>
 
                         <div className={styles.gridContainer}>
                             <div className={styles.infosCOntainer}>

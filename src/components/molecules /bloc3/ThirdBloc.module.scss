@@ -1,11 +1,13 @@
 @import '../../../app/[locale]/variables.scss';
 
 .thirdBloc {
-    .subContainer1 {
+    .container {
         display: flex;
         flex-direction: column;
+    }
+    .subContainer1 {
+        display: flex;
         @media screen and (min-width: $desktop) {
-            flex-direction: row;
         }
     }
 
@@ -32,10 +34,25 @@
             font-size: 30px;
         }
     }
+
+    .blueLineContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: space-between;
+    }
     .blueLine {
         width: 100%;
-        height: 190px;
         background-color: $lightBlue;
+        padding: 2rem;
+    }
+
+    .blueLineText {
+        font-family: 'helveticaLight';
+        text-align: center;
+        color: white;
+        @media screen and (min-width: $desktop) {
+        }
     }
 
     .subContainer2 {
@@ -47,7 +64,31 @@
         height: auto;
     }
 
-    .image {
+    .descContainer {
+        display: flex;
+        padding: 1rem;
+        gap: 35px;
+    }
+
+    .linesContainer {
+        display: flex;
+    }
+
+    .darkLine {
+        background-color: $darkBlue;
+        display: block;
+        height: auto;
+        width: 200px;
+    }
+
+    .lightLine {
+        background-color: $lightBlue;
+        display: block;
+        height: auto;
+        width: 200px;
+    }
+
+    .banniere {
         width: 100%;
         height: auto;
     }

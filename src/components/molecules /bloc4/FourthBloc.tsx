@@ -42,19 +42,17 @@ export const FourthBloc = () => {
                     <Image
                         src="/08.png"
                         alt="illustration-features-tab-1"
-                        width={400}
-                        height={300}
-                        className={styles.image}
+                        width={500}
+                        height={500}
                     />
                     <p>{t('text6')}</p>
                 </div>
             </section>
             <Image
-                src="/02.png"
+                src="/illu.png"
                 alt="illustration-features-tab-2"
-                width={400}
-                height={300}
-                className={styles.image}
+                width={200}
+                height={200}
             />
         </article>
     )

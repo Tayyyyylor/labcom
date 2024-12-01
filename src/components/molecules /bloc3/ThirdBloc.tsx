@@ -22,13 +22,15 @@ export const ThirdBloc = () => {
                     <div className={styles.blueLineContainer}>
                         <div className={styles.blueLine}>
                             <p className={styles.blueLineText}>
-                                {t('blueLine')}
+                                {t.rich('blueLine', { br: () => <br /> })}
                             </p>
                         </div>
                         <div className={styles.divContainer}>
                             <div className={styles.textContainer}>
                                 <p className={styles.text}>{t('subtitle1')}</p>
-                                <p className={styles.text}>{t('subtitle2')}</p>
+                                <p className={styles.text}>
+                                    {t.rich('subtitle2', { br: () => <br /> })}
+                                </p>
                                 <p className={styles.text}>{t('subtitle3')}</p>
                                 <p className={styles.text}>{t('subtitle4')}</p>
                             </div>
@@ -38,8 +40,15 @@ export const ThirdBloc = () => {
                 <div className={styles.linesContainer}>
                     <span className={styles.darkLine} />
                     <div className={styles.descContainer}>
-                        <p>{t('text1')}</p>
-                        <p>{t('text2')}</p>
+                        <p>{t.rich('text1', { br: () => <br /> })}</p>
+                        <p>
+                            {t.rich('text2', {
+                                br: () => <br />,
+                                strong: (chunks) => (
+                                    <span className="bold">{chunks}</span>
+                                ),
+                            })}
+                        </p>
                     </div>
                     <span className={styles.lightLine} />
                 </div>

@@ -6,7 +6,7 @@
         @media screen and (min-width: $desktop) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-gap: 20px;
+            grid-gap: 40px;
             padding: 2rem;
         }
     }
@@ -15,17 +15,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         gap: 10px;
     }
 
     .image {
         border: 3px solid $lightBlue;
         width: 100%;
+        height: auto;
+        max-height: 331px;
+        object-fit: cover;
     }
 
     .title {
         color: $lightBlue;
         font-family: 'serifBold';
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.2px;
+        margin-top: 20px;
     }
 }

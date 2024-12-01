@@ -11,13 +11,10 @@ export default function News() {
     const t = useTranslations()
     const locale = useLocale()
 
-    const [isLoading, setIsLoading] = useState(true)
-    console.log('isLoading', isLoading)
     const [news, setNews] = useState<any>([])
 
     useEffect(() => {
         const fetchNews = async () => {
-            setIsLoading(true)
             try {
                 const data = await axiosInstance.get(
                     `/posts?locale=${locale}&populate=*`
@@ -28,8 +25,6 @@ export default function News() {
                     'Erreur lors de la récupération des articles :',
                     error
                 )
-            } finally {
-                setIsLoading(false)
             }
         }
         fetchNews()
@@ -47,12 +42,11 @@ export default function News() {
                                 src={imageUrl}
                                 alt="toto"
                                 width={450}
-                                height={300}
+                                height={350}
                                 className={styles.image}
-                                unoptimized
                             />
                             <h3 className={styles.title}>{article.title}</h3>
-                            <p>{article.desc[0]?.children[0]?.text}</p>
+                            <p>{article.desc}</p>
                         </div>
                     )
                 })}

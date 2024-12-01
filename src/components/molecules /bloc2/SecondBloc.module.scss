@@ -1,5 +1,12 @@
 @import '../../../app/[locale]/variables.scss';
 .secondBloc {
+    color: $darkBlue;
+
+    p {
+        letter-spacing: 1px;
+        line-height: 1.1;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -8,9 +15,9 @@
 
     .image {
         width: 100%;
-
+        height: auto;
+        flex: 1;
         @media screen and (min-width: $desktop) {
-            height: 600px;
         }
     }
 
@@ -26,17 +33,16 @@
 
     .textContainer1 {
         text-align: justify;
-        padding: 1rem;
         color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        flex: 2;
         background-color: $darkBlue;
         @media screen and (min-width: $desktop) {
             text-align: center;
-            padding: 2rem;
         }
     }
 
@@ -57,6 +63,8 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        flex: 2;
+        font-size: 14px;
         @media screen and (min-width: $desktop) {
             text-align: center;
             padding: 2rem;
@@ -88,7 +96,8 @@
     .blueLineText {
         color: white;
         text-align: center;
-        font-family: 'helveticaBold';
+        font-family: 'helveticaMedium';
+        font-size: 14px;
     }
 
     .gridContainer {

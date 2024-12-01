@@ -20,15 +20,17 @@ export const FirstBloc = () => {
                 <div className={styles.textContainer}>
                     <Image
                         src="/trioLogo.png"
-                        width={300}
-                        height={70}
+                        width={200}
+                        height={50}
                         alt="logo"
                         className={styles.trioLogo}
                     />
-                    <h3 className={styles.titleSerif}>{t('subtitle')}</h3>
+                    <h3 className={styles.titleSerif}>
+                        {t.rich('subtitle', { br: () => <br /> })}
+                    </h3>
                     <p className={styles.textBlue}>{t('desc')}</p>
                     <p className={styles.subdesc}>{t('subdesc')}</p>
-                    <Image src="/illu.png" width={100} height={100} alt="art" />
+                    <Image src="/illu.png" width={150} height={150} alt="art" />
                 </div>
             </section>
         </article>

@@ -1,3 +1,5 @@
+@import '../../../app/[locale]/variables.scss';
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -7,6 +9,10 @@
         margin-bottom: 1rem;
         font-family: 'serifBold';
         text-transform: uppercase;
+        @media screen and (max-width: $desktop) {
+            text-align: center;
+            margin-top: 20px;
+        }
     }
 
     .mainContainer {
@@ -15,5 +21,10 @@
         font-size: 14px;
         line-height: 1.3;
         letter-spacing: 0.6px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
     }
 }

@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl'
 export const SecondBloc = () => {
     const t = useTranslations('Bloc2')
     return (
-        <article className={styles.secondBloc}>
+        <article className={styles.secondBloc} id="project">
             <Title title={t.rich('title', { br: () => <br /> })} />
             <section className={styles.container}>
                 <div className={styles.subContainer1}>

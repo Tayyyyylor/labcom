@@ -1,7 +1,14 @@
+@import '../../../app/[locale]/variables.scss';
+
 .followUs {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media screen and (max-width: $desktop) {
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
     .title {
         font-size: 25px;
         margin-bottom: 1rem;
@@ -10,5 +17,12 @@
     }
 
     .socialMedia {
+        font-size: 14px;
+        letter-spacing: 0.6px;
+        line-height: 1.2;
+    }
+    a {
+        text-decoration: none;
+        color: white;
     }
 }

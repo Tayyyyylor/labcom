@@ -10,7 +10,7 @@ import Image from 'next/image'
 export const Footer = () => {
     const isMobile = useMobile()
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id="contact">
             <section className={styles.containerContact}>
                 <Logo
                     color="white"
@@ -29,6 +29,7 @@ export const Footer = () => {
                     alt="credits"
                     width={400}
                     height={50}
+                    className={styles.imgCredits}
                 />
             </section>
         </footer>

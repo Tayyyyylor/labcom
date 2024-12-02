@@ -6,24 +6,40 @@
 
     .containerContact {
         display: flex;
-        width: 100%;
+        flex-direction: column;
         color: white;
-        justify-content: space-around;
         background-color: $darkBlue;
         padding: 2rem;
+        width: 100%;
+        align-items: center;
+        @media screen and (min-width: $desktop) {
+            flex-direction: row;
+            justify-content: space-around;
+        }
     }
 
     .containerCredits {
+        display: flex;
+        flex-direction: column;
         background-color: white;
         padding: 1rem;
-        display: flex;
-        justify-content: space-around;
         align-items: center;
+        @media screen and (min-width: $desktop) {
+            flex-direction: row;
+            justify-content: space-around;
+        }
     }
 
     .credits {
         font-size: 12px;
         font-family: 'helveticaMedium';
         color: $darkBlue;
+    }
+
+    .imgCredits {
+        @media screen and (max-width: $desktop) {
+            width: 100%;
+            height: auto;
+        }
     }
 }

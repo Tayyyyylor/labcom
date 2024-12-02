@@ -8,7 +8,9 @@
     }
     .subContainer1 {
         display: flex;
+        flex-direction: column;
         @media screen and (min-width: $desktop) {
+            flex-direction: row;
         }
     }
 
@@ -100,5 +102,12 @@
     .banniere {
         width: 100%;
         height: auto;
+    }
+
+    .image {
+        @media screen and (max-width: $desktop) {
+            width: 100%;
+            height: auto;
+        }
     }
 }

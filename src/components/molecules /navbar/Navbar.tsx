@@ -35,17 +35,17 @@ export default function Navbar() {
             <nav className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
                 <ul>
                     <li>
-                        <a href="#home" onClick={handleClick}>
+                        <a href="#project" onClick={handleClick}>
                             {t('Header.nav1')}
                         </a>
                     </li>
                     <li>
-                        <a href="#about" onClick={handleClick}>
+                        <a href="#team" onClick={handleClick}>
                             {t('Header.nav2')}
                         </a>
                     </li>
                     <li>
-                        <a href="#services" onClick={handleClick}>
+                        <a href="#news" onClick={handleClick}>
                             {t('Header.nav3')}
                         </a>
                     </li>
@@ -66,10 +66,18 @@ export default function Navbar() {
     ) : (
         <nav className={styles.nav}>
             <ul className={styles.navContainer}>
-                <li>{t('Header.nav1')}</li>
-                <li>{t('Header.nav2')}</li>
-                <li>{t('Header.nav3')}</li>
-                <li>{t('Header.nav4')}</li>
+                <li>
+                    <a href="#project">{t('Header.nav1')}</a>
+                </li>
+                <li>
+                    <a href="#team">{t('Header.nav2')}</a>
+                </li>
+                <li>
+                    <a href="#news">{t('Header.nav3')}</a>
+                </li>
+                <li>
+                    <a href="#contact">{t('Header.nav4')}</a>
+                </li>
                 <hr className={styles.verticalBar} />
                 <li>
                     <LocalSwitcher

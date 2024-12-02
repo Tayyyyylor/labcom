@@ -32,7 +32,6 @@
     }
 
     .textContainer1 {
-        text-align: justify;
         color: white;
         display: flex;
         flex-direction: column;
@@ -40,9 +39,11 @@
         align-items: center;
         gap: 20px;
         flex: 2;
+        padding: 1rem;
         background-color: $darkBlue;
+        text-align: center;
         @media screen and (min-width: $desktop) {
-            text-align: center;
+            padding: 0;
         }
     }
 

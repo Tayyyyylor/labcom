@@ -4,6 +4,10 @@
 }
 .teamContainer {
     display: flex;
+    flex-direction: column;
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+    }
 }
 .textContainer {
     display: flex;
@@ -34,4 +38,11 @@
     width: 100%;
     height: auto;
     flex: 1;
+}
+
+.trioLogo {
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+        height: auto;
+    }
 }

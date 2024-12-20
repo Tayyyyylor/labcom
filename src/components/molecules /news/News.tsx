@@ -14,7 +14,6 @@ export default function News() {
 
     const [news, setNews] = useState<any>([])
 
-
     useEffect(() => {
         const fetchNews = async () => {
             try {
@@ -41,7 +40,7 @@ export default function News() {
                     return (
                         <div key={article.documentId} className={styles.new}>
                             <Link href={imageUrl}>
-                                 <Image
+                                <Image
                                     src={imageUrl}
                                     alt="toto"
                                     width={450}

@@ -34,9 +34,11 @@
         font-size: 14px;
         line-height: 1.2;
         width: 100%;
+        flex-direction: column;
         @media screen and (min-width: $desktop) {
             position: relative;
             z-index: 1;
+            flex-direction: row;
         }
     }
     .container::after {

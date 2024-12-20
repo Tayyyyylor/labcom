@@ -14,6 +14,7 @@ export default function News() {
 
     const [news, setNews] = useState<any>([])
 
+
     useEffect(() => {
         const fetchNews = async () => {
             try {
@@ -39,8 +40,8 @@ export default function News() {
                     const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`
                     return (
                         <div key={article.documentId} className={styles.new}>
-                            <Link href={article.url}>
-                                <Image
+                            <Link href={imageUrl}>
+                                 <Image
                                     src={imageUrl}
                                     alt="toto"
                                     width={450}

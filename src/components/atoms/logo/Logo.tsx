@@ -11,7 +11,7 @@ interface LogoProps {
 export default function Logo({ color, width, height }: LogoProps) {
     return (
         <Image
-            src={color === 'white' ? '/logoblanc.png' : '/logobleu.png'}
+            src={color === 'white' ? '/logoblanc.png' : '/logobleu_optimaa.png'}
             width={width}
             height={height}
             alt="logo"

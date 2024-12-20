@@ -26,9 +26,11 @@
     .image {
         border: 3px solid $lightBlue;
         width: 100%;
-        height: auto;
         max-height: 331px;
         object-fit: cover;
+        @media screen and (max-width: $tablet) {
+            height: auto;
+        }
     }
 
     .title {

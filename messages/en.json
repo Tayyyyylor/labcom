@@ -84,13 +84,15 @@
         "text12": "Il est accompagné par une équipe de permanents composée (chercheurs, enseignants-chercheurs, ingénieurs et techniciens) suivante : A. Hocini (IR, essais mécaniques et post-traitement CIC) ; M. Konstantakopoulou (IE, Microscopie), P. Langlois (CR, métallurgie des poudres), D Tingaud (MCF, procédés et chimie des matériaux)."
     },
     "Contact": {
-        "title": "Contact Us",
-        "name": "LSPM - CNRS",
-        "block": "Bâtiments L1/L2",
-        "address": "99 av Jean-Baptiste Clement",
-        "city": "93430 Villetaneuse",
-        "mail": "dirras@sorbonne-paris-nord.fr",
-        "mail2": "hello@optimaa.com"
+        "title": "Contactez-nous",
+        "project1": "LSPM - CNRS",
+        "project2": "Z3DLab",
+        "name1": "Guy DIRRAS",
+        "name2": "Madjid DJEMAI",
+        "mail1": "guy.dirras@cnrs.fr",
+        "mail2": "mdjemai@z3dlab.com",
+        "web1": "www.lspm.cnrs.fr",
+        "web2": "http://Z3dlab.com/"
     },
     "FollowUs": {
         "title": "Follow us"

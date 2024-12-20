@@ -5,7 +5,14 @@
     gap: 50px;
     margin-bottom: 100px;
     p {
-        text-align: center;
+        text-align: justify;
+        @media screen and (min-width: $desktop) {
+            text-align: center;
+        }
+    }
+    flex-direction: column;
+    @media (min-width: $desktop) {
+        flex-direction: row;
     }
 }
 

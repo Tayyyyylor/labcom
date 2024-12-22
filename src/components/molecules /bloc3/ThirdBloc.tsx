@@ -54,7 +54,7 @@ export const ThirdBloc = () => {
                 </div>
                 <div>
                     <Image
-                        src="/img2Bloc3.png"
+                        src={t('image')}
                         width={500}
                         height={400}
                         alt="atr"

@@ -33,7 +33,11 @@ export default function News() {
 
     return (
         <article className={styles.news} id="news">
-            <Title title={t('Homepage.news')} />
+            <Title
+                title={t('Homepage.news')}
+                hasLogo={false}
+                className={styles.titleNews}
+            />
             <section className={styles.newsContainer}>
                 {news.map((article: any) => {
                     const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`

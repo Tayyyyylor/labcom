@@ -4,9 +4,11 @@ import Image from 'next/image'
 import React from 'react'
 import styles from './SecondBloc.module.scss'
 import { useTranslations } from 'next-intl'
+import useMobile from '@/hooks/useMobile'
 
 export const SecondBloc = () => {
     const t = useTranslations('Bloc2')
+    const isMobile = useMobile()
     return (
         <article className={styles.secondBloc} id="project">
             <Title title={t.rich('title', { br: () => <br /> })} />
@@ -28,16 +30,28 @@ export const SecondBloc = () => {
                                 ),
                             })}
                         </p>
-                        <p>{t.rich('text2', { br: () => <br /> })}</p>
-                        <p>{t.rich('text3', { br: () => <br /> })}</p>
+                        <p>
+                            {t.rich('text2', {
+                                br: () => (isMobile ? '' : <br />),
+                            })}
+                        </p>
+                        <p>
+                            {t.rich('text3', {
+                                br: () => (isMobile ? '' : <br />),
+                            })}
+                        </p>
                     </div>
                 </div>
                 <div className={styles.subContainer2}>
                     <div className={styles.textContainer2}>
-                        <p>{t.rich('text4', { br: () => <br /> })}</p>
+                        <p>
+                            {t.rich('text4', {
+                                br: () => (isMobile ? '' : <br />),
+                            })}
+                        </p>
                         <p>
                             {t.rich('text5', {
-                                br: () => <br />,
+                                br: () => (isMobile ? '' : <br />),
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
@@ -45,7 +59,7 @@ export const SecondBloc = () => {
                         </p>
                         <p>
                             {t.rich('text6', {
-                                br: () => <br />,
+                                br: () => (isMobile ? '' : <br />),
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
@@ -71,7 +85,9 @@ export const SecondBloc = () => {
                     <div className={styles.textContainer3}>
                         <div className={styles.blueLine}>
                             <p className={styles.blueLineText}>
-                                {t.rich('desc', { br: () => <br /> })}
+                                {t.rich('desc', {
+                                    br: () => (isMobile ? '' : <br />),
+                                })}
                             </p>
                         </div>
 

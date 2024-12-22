@@ -4,11 +4,11 @@
     .subdesc {
         font-size: 15px;
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
 
         @media screen and (min-width: $desktop) {
             font-size: 12px;
-            width: 50%;
+            width: 55%;
         }
     }
 
@@ -58,4 +58,5 @@
     color: $newBlue;
     font-family: 'serifBold';
     font-size: 20px;
+    letter-spacing: 1px;
 }

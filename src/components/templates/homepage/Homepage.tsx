@@ -21,9 +21,9 @@ export default async function Homepage() {
                 <SecondBloc />
                 <ThirdBloc />
                 <FourthBloc />
-                <News />
                 <Team />
                 <Brands />
+                <News />
             </div>
 
             <Footer />

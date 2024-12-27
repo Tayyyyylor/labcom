@@ -27,7 +27,13 @@ export default function Brands() {
                 <p>{t.rich('text3', { br: () => (isMobile ? '' : <br />) })}</p>
                 <br />
                 <p>{t.rich('text4', { br: () => (isMobile ? '' : <br />) })}</p>
-                <h5 className={styles.name}>Madjid DJEMAI</h5>
+                <Image
+                    className={styles.name}
+                    src="/madjid2.png"
+                    alt="madjid"
+                    width={550}
+                    height={330}
+                />
                 <p>{t.rich('text5', { br: () => (isMobile ? '' : <br />) })}</p>
                 <br />
                 <p>{t.rich('text6', { br: () => (isMobile ? '' : <br />) })}</p>

@@ -13,7 +13,6 @@
 
     .new {
         margin-top: 30px;
-
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -24,7 +23,7 @@
     }
 
     .image {
-        border: 3px solid $newBlue;
+        border: 8px solid $newBlue;
         width: 100%;
         max-height: 331px;
         object-fit: cover;

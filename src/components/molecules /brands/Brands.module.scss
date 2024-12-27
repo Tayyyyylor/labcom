@@ -8,6 +8,7 @@
         text-align: justify;
         @media screen and (min-width: $desktop) {
             text-align: center;
+            font-size: 14px;
         }
     }
     flex-direction: column;
@@ -49,13 +50,7 @@
 }
 
 .name {
-    color: white;
-    background-color: $newBlue;
-    padding: 10px;
-    font-family: 'serifBold';
-    font-size: 24px;
     margin: 12px 0;
-    text-align: center;
 }
 
 .image2 {

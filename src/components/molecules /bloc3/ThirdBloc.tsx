@@ -27,12 +27,18 @@ export const ThirdBloc = () => {
                         </div>
                         <div className={styles.divContainer}>
                             <div className={styles.textContainer}>
-                                <p className={styles.text}>{t('subtitle1')}</p>
+                                <p className={styles.text}>
+                                    {t.rich('subtitle1', { br: () => <br /> })}
+                                </p>
                                 <p className={styles.text}>
                                     {t.rich('subtitle2', { br: () => <br /> })}
                                 </p>
-                                <p className={styles.text}>{t('subtitle3')}</p>
-                                <p className={styles.text}>{t('subtitle4')}</p>
+                                <p className={styles.text}>
+                                    {t.rich('subtitle3', { br: () => <br /> })}
+                                </p>
+                                <p className={styles.text}>
+                                    {t.rich('subtitle4', { br: () => <br /> })}
+                                </p>
                             </div>
                         </div>
                     </div>

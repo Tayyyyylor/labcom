@@ -13,6 +13,9 @@ export default function News() {
     const locale = useLocale()
 
     const [news, setNews] = useState<any>([])
+    const [hoveredArticleId, setHoveredArticleId] = useState<string | null>(
+        null
+    )
 
     useEffect(() => {
         const fetchNews = async () => {
@@ -43,18 +46,32 @@ export default function News() {
                     const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`
                     return (
                         <div key={article.documentId} className={styles.new}>
-                            <Link href={imageUrl}>
+                            <Link
+                                href={imageUrl}
+                                onMouseEnter={() =>
+                                    setHoveredArticleId(article.documentId)
+                                }
+                                onMouseLeave={() => setHoveredArticleId(null)}
+                            >
                                 <Image
                                     src={imageUrl}
                                     alt="toto"
                                     width={450}
                                     height={350}
-                                    className={styles.image}
+                                    className={`${styles.image} ${
+                                        hoveredArticleId === article.documentId
+                                            ? styles.hover
+                                            : ''
+                                    }`}
                                 />
                                 <h3 className={styles.title}>
                                     {article.title}
                                 </h3>
-                                <p>{article.desc}</p>
+                                {hoveredArticleId === article.documentId && (
+                                    <p className={styles.desc}>
+                                        {article.desc}
+                                    </p>
+                                )}
                             </Link>
                         </div>
                     )

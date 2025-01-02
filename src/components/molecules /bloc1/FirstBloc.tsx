@@ -18,13 +18,14 @@ export const FirstBloc = () => {
                     className={styles.image}
                 />
                 <div className={styles.textContainer}>
-                    <Image
-                        src="/trioLogo.png"
-                        width={200}
-                        height={50}
-                        alt="logo"
-                        className={styles.trioLogo}
-                    />
+                    <div className={styles.imgContainer}>
+                        <Image
+                            src="/quatuorLogo.png"
+                            fill
+                            alt="logo"
+                            className={styles.trioLogo}
+                        />
+                    </div>
                     <h3 className={styles.titleSerif}>
                         {t.rich('subtitle', { br: () => <br /> })}
                     </h3>

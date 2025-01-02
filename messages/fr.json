@@ -6,7 +6,8 @@
         }
     },
     "Homepage": {
-        "news": "Actualités"
+        "news": "Actualités",
+        "optima": "OPTIMAA: OPTImisation des Microstructures et des Propriétés<br></br>Mécaniques d'Alliages Métalliques Obtenues par Fabrication Additive"
     },
     "Header": {
         "nav1": "Le projet",
@@ -22,22 +23,19 @@
     },
     "Bloc2": {
         "title": "Objectifs Globaux, Verrous<br></br>Scientifiques et Techniques",
-        "desc": "OPTIMAA: OPTImisation des Microstructures et des Propriétés<br></br>Mécaniques d'Alliages Métalliques Obtenues par Fabrication Additive",
         "text1": "<strong>Le projet LabCom OPTIMAA</strong> s’appuie sur les objectifs<br></br>de développement de <strong>Z3DLAB</strong> et sur l’expertise du <strong>LSPM</strong>,<br></br>en particulier dans la métallurgie physique et la métallurgie des<br></br>poudres, pour optimiser ces matériaux et leurs performances.",
         "text2": "Les matériaux développés par FA, en particulier les alliages de<br></br>titane comme leTA6V, dominent les marchés médicaux et<br></br> aéronautiques. Cependant, le TA6V présente des inconvénients<br></br> tels que la toxicité des éléments d’alliage et sa rigidité comparée<br></br>à l’os, ainsi que des limitations en termes de fatigue<br></br>et derésistance mécanique pour l’aéronautique.",
         "text3": "Pour résoudre ces problèmes, Z3DLAB a créé des poudres<br></br>innovantes comme ZTM14N (pour le médical), ZTP10 (pour la<br></br>résistance à la fatigue) et ZTP20Z (pour les milieux extrêmes).<br></br>Ces matériaux ont démontré des perspectives intéressantes en<br></br>laboratoire, mais une optimisation des paramètres de fusion par<br></br>FA et un post-traitement par CIC sont indispensables<br></br>pour un déploiement à l’échelle industrielle.",
-        "text4": "La gamme des matériaux métalliques proposés à la fabrication additive<br></br>(FA) reste limitée alors qu’il existe une réelle attente de nouveaux<br></br>matériaux pour des objets métalliques plus légers ou des composites<br></br>à matrice métalliques aux propriétés nouvelles ou améliorées, en<br></br>particulier dans les secteurs liés aux industries automobiles,<br></br>nucléaires, aéronautiques et médicales.",
-        "text5": "Les travaux prévus dans le cadre de la proposition OPTIMAA, <br></br>permettront non seulement d’apporter <strong>de nouvelles solutions<br></br>matériau (poudres et massifs)</strong> mais également d’améliorer le degré<br></br>de maturité de ces solutions afin de résoudre les problématiques<br></br>suivantes : dans le domaine médical, on proposera un nouveau<br></br>matériau (ZTM14N) pour remplacer le titane pur et le TA6V (plus rigide<br></br>que l’os, présence d’éléments toxiques).",
-        "text6": "Dans le domaine aéronautique, une solution matériau composite à<br></br>base de TA6V et d’oxyde de zirconium afin de remplacer le TA6V<br></br>(faible résistance à la fatigue). Dans le domaine aérospatial, une<br></br>solution matériau de remplacement pour le zirconium (ZTP20Z) sera<br></br>également mise en œuvre. Pour ce faire, le triptyque <strong>« procédé FA—<br></br>microstructure—propriétés (et performance) » </strong> sera au centre des<br></br>travaux du LabCom OPTIMAA. ",
+        "text4": "La gamme des matériaux métalliques proposés à la fabrication additive (FA) reste limitée alors qu’il existe une réelle attente de nouveaux matériaux pour des objets métalliques plus légers ou des composites à matrice métalliques aux propriétés nouvelles ou améliorées, en particulier dans les secteurs liés aux industries automobiles, nucléaires, aéronautiques et médicales.",
+        "text5": "Les travaux prévus dans le cadre de la proposition OPTIMAA, permettront non seulement d’apporter <strong>de nouvelles solutions matériau (poudres et massifs)</strong> mais également d’améliorer le degré de maturité de ces solutions afin de résoudre les problématiques suivantes : dans le domaine médical, on proposera un nouveau matériau (ZTM14N) pour remplacer le titane pur et le TA6V (plus rigide que l’os, présence d’éléments toxiques).",
+        "text6": "Dans le domaine aéronautique, une solution matériau composite à base de TA6V et d’oxyde de zirconium afin de remplacer le TA6V (faible résistance à la fatigue). Dans le domaine aérospatial, une solution matériau de remplacement pour le zirconium (ZTP20Z) sera également mise en œuvre. Pour ce faire, le triptyque <strong>« procédé FA—microstructure—propriétés (et performance) » </strong> sera au centre des travaux du LabCom OPTIMAA. ",
         "grid": {
             "title1": "Solution ZTM14N (Ti19Nb14Zr)",
             "desc1": "Une fois les propriétés mécaniques (Axe 2) de ce matériau biocompatible validées (TRL actuel 5), l’objectif sera de développer un applicatif de ce matériau, en particulier dans le domaine des implants dentaires.",
             "title2": "Solution ZTP10 (TA6V1Zr0.3O) ",
             "desc2": "Actuellement ce matériau est à TRL 6. Une étude complète de son comportement en fatigue ainsi que de fluage sera nécessaire afin de passer au TRL 7. L’objectif est d’obtenir une pièce d’application finale qui répond aux normes du marché aéronautique.",
             "title3": "Solution ZTP20Z (TA6V20Zr)",
-            "desc3": "Ce nouveau matériau très récent nécessite un travail plus poussé que le ZTP10 et ZTM14N. En effet, le TRL de ce matériau est de 4. Une première faisa-bilité pour réduire le coût de revient doit se faire en amont.",
-            "title4": "Titane pur et le TA6V",
-            "desc4": "Plus rigide que l’os, présence d’éléments toxiques, faible résistance à la fatigue."
+            "desc3": "Ce nouveau matériau très récent nécessite un travail plus poussé que le ZTP10 et ZTM14N. En effet, le TRL de ce matériau est de 4. Une première faisa-bilité pour réduire le coût de revient doit se faire en amont."
         }
     },
     "Bloc3": {

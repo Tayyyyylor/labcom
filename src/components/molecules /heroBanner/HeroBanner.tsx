@@ -6,7 +6,7 @@ export default function HeroBanner() {
     return (
         <div className={styles.heroBanner}>
             <Image
-                src="/01.png"
+                src="/banniere.png"
                 alt="Hero Banner"
                 fill
                 className={styles.imgBanner}

@@ -17,6 +17,7 @@
         flex-direction: column;
         gap: 10px;
         align-items: center;
+        position: relative;
         @media screen and (min-width: $desktop) {
             margin-top: 0;
         }
@@ -53,5 +54,20 @@
 
     .titleNews {
         font-family: 'serifBold';
+    }
+
+    .desc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 14px;
+        font-family: 'helveticaMedium';
+    }
+
+    .hover {
+        opacity: 0.4;
+        transition: 0.5s;
     }
 }

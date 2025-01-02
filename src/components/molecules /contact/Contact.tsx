@@ -15,7 +15,7 @@ export const Contact = () => {
                     <p>
                         <Link href={`mailto:${t('mail1')}`}>{t('mail1')}</Link>
                     </p>
-                    <Link href={t('web1')}>{t('web1')}</Link>
+                    <Link href={t('web1')}>{t('web')}</Link>
                 </div>
                 <div className={styles.container}>
                     <p>{t('project2')}</p>
@@ -24,7 +24,7 @@ export const Contact = () => {
                         <Link href={`mailto:${t('mail2')}`}>{t('mail2')}</Link>
                     </p>
                     <p>
-                        <Link href={t('web2')}>{t('web2')}</Link>
+                        <Link href={t('web2')}>{t('web')}</Link>
                     </p>
                 </div>
             </div>

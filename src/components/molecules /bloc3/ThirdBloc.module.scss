@@ -2,6 +2,9 @@
 
 .thirdBloc {
     color: $darkBlue;
+    p {
+        text-align: center;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -35,7 +38,7 @@
         font-family: 'serifBold';
         text-align: center;
         @media screen and (min-width: $desktop) {
-            font-size: 30px;
+            font-size: 25px;
         }
     }
 

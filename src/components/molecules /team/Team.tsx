@@ -10,24 +10,18 @@ export default function Team() {
         <article className={styles.team} id="team">
             <Title title={t('title')} />
             <section className={styles.teamContainer}>
-                <div className={styles.textContainer}>
+                <div className={styles.imgContainer}>
                     <Image
-                        src="/trioLogo.png"
+                        src="/quatuorLogo.png"
                         alt="team"
-                        width={500}
-                        height={100}
+                        fill
                         className={styles.trioLogo}
                     />
+                </div>
+                <div className={styles.textContainer}>
                     <h3 className={styles.subtitle}>{t('subtitle')}</h3>
                     <p className={styles.desc}>{t('desc')}</p>
                 </div>
-                <Image
-                    src="/imgBlocTeam.png"
-                    alt="team"
-                    width={400}
-                    height={300}
-                    className={styles.image}
-                />
             </section>
         </article>
     )

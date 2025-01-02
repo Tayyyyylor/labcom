@@ -9,6 +9,7 @@ import { FourthBloc } from '@/components/molecules /bloc4/FourthBloc'
 import News from '@/components/molecules /news/News'
 import Team from '@/components/molecules /team/Team'
 import Brands from '@/components/molecules /brands/Brands'
+import Slogan from '@/components/atoms/slogan/Slogan'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default async function Homepage() {
@@ -16,6 +17,7 @@ export default async function Homepage() {
         <main className={styles.homepage}>
             <div style={{ height: '80px' }}></div>
             <HeroBanner />
+            <Slogan />
             <div className={styles.container}>
                 <FirstBloc />
                 <SecondBloc />

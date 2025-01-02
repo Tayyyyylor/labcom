@@ -46,7 +46,13 @@ export default function Brands() {
                 <p>{t.rich('text8', { br: () => (isMobile ? '' : <br />) })}</p>
                 <br />
                 <p>{t.rich('text9', { br: () => (isMobile ? '' : <br />) })}</p>
-                <h5 className={styles.name}>Guy DIRRAS</h5>
+                <Image
+                    className={styles.name}
+                    src="/guy2.png"
+                    alt="madjid"
+                    width={550}
+                    height={330}
+                />
                 <p>
                     {t.rich('text10', { br: () => (isMobile ? '' : <br />) })}
                 </p>

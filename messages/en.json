@@ -6,7 +6,8 @@
         }
     },
     "Homepage": {
-        "news": "News"
+        "news": "News",
+        "optima": "OPTIMAA: Optimization of Microstructures and Mechanical Properties<br></br>of Metal Alloys Produced by Additive Manufacturing"
     },
     "Header": {
         "nav1": "project",
@@ -22,7 +23,6 @@
     },
     "Bloc2": {
         "title": "Global Objectives, Scientific<br></br>and Technical Challenges",
-        "desc": "OPTIMAA: Optimization of Microstructures and Mechanical Properties of Metal Alloys Produced by Additive Manufacturing",
         "text1": "<strong>The LabCom OPTIMAA project </strong> is grounded in <strong>Z3DLAB's</strong> development goals and the expertise of <strong>LSPM</strong>, particularly in physical metallurgy and powder metallurgy, to optimize these materials and their performance.",
         "text2": "Materials developed through additive manufacturing (AM), especially titanium alloys like TA6V, dominate the medical and aerospace markets. However, TA6V has drawbacks such as the toxicity of its alloying elements, its stiffness compared to bone, and limitations in fatigue and mechanical resistance for aerospace applications.",
         "text3": "To address these issues, Z3DLAB has developed innovative powders such as ZTM14N (for medical applications), ZTP10 (for fatigue resistance), and ZTP20Z (for extreme environments). These materials have shown promising laboratory results, but optimization of AM melting parameters and post-treatment using CIC is essential for scaling up to industrial deployment.",
@@ -35,9 +35,7 @@
             "title2": "ZTP10 (TA6V1Zr0.3O) ",
             "desc2": "Currently, this material is at TRL 6. A comprehensive study of its fatigue and creep behavior will be necessary to reach TRL 7. The goal is to produce a final application part that meets aerospace market standards.",
             "title3": "ZTP20Z (TA6V20Zr)",
-            "desc3": "This newly developed material requires more extensive work than ZTP10 and ZTM14N. Indeed, the TRL of this material is 4. An initial feasibility study to reduce production costs must be conducted upstream.",
-            "title4": "Pure Titane and TA6V",
-            "desc4": "Stiffer than bone, presence of toxic elements, low fatigue resistance."
+            "desc3": "This newly developed material requires more extensive work than ZTP10 and ZTM14N. Indeed, the TRL of this material is 4. An initial feasibility study to reduce production costs must be conducted upstream."
         }
     },
     "Bloc3": {

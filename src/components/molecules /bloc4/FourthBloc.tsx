@@ -74,12 +74,6 @@ export const FourthBloc = () => {
                     </p>
                 </div>
             </section>
-            <Image
-                src="/illu.png"
-                alt="illustration-features-tab-2"
-                width={200}
-                height={200}
-            />
         </article>
     )
 }

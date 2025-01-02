@@ -44,14 +44,9 @@ export const SecondBloc = () => {
                 </div>
                 <div className={styles.subContainer2}>
                     <div className={styles.textContainer2}>
-                        <p>
-                            {t.rich('text4', {
-                                br: () => (isMobile ? '' : <br />),
-                            })}
-                        </p>
+                        <p>{t('text4')}</p>
                         <p>
                             {t.rich('text5', {
-                                br: () => (isMobile ? '' : <br />),
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
@@ -59,71 +54,30 @@ export const SecondBloc = () => {
                         </p>
                         <p>
                             {t.rich('text6', {
-                                br: () => (isMobile ? '' : <br />),
                                 strong: (chunks) => (
                                     <span className="bold">{chunks}</span>
                                 ),
                             })}
                         </p>
                     </div>
-                    <Image
-                        src="/img2Bloc2.png"
-                        width={400}
-                        height={300}
-                        alt="art"
-                        className={styles.image}
-                    />
-                </div>
-                <div className={styles.subContainer3}>
-                    <Image
-                        src="/img3Bloc2.png"
-                        width={400}
-                        height={300}
-                        alt="art"
-                        className={styles.image}
-                    />
-                    <div className={styles.textContainer3}>
-                        <div className={styles.blueLine}>
-                            <p className={styles.blueLineText}>
-                                {t.rich('desc', {
-                                    br: () => (isMobile ? '' : <br />),
-                                })}
-                            </p>
+                    <div className={styles.gridContainer}>
+                        <div className={styles.infosCOntainer}>
+                            <h5 className={styles.gridTitle}>
+                                {t('grid.title1')}
+                            </h5>
+                            <p className={styles.gridText}>{t('grid.desc1')}</p>
                         </div>
-
-                        <div className={styles.gridContainer}>
-                            <div className={styles.infosCOntainer}>
-                                <h5 className={styles.gridTitle}>
-                                    {t('grid.title1')}
-                                </h5>
-                                <p className={styles.gridText}>
-                                    {t('grid.desc1')}
-                                </p>
-                            </div>
-                            <div className={styles.infosCOntainer}>
-                                <h5 className={styles.gridTitle}>
-                                    {t('grid.title2')}
-                                </h5>
-                                <p className={styles.gridText}>
-                                    {t('grid.desc2')}
-                                </p>
-                            </div>
-                            <div className={styles.infosCOntainer}>
-                                <h5 className={styles.gridTitle}>
-                                    {t('grid.title3')}
-                                </h5>
-                                <p className={styles.gridText}>
-                                    {t('grid.desc3')}
-                                </p>
-                            </div>
-                            <div className={styles.infosCOntainer}>
-                                <h5 className={styles.gridTitle}>
-                                    {t('grid.title4')}
-                                </h5>
-                                <p className={styles.gridText}>
-                                    {t('grid.desc4')}
-                                </p>
-                            </div>
+                        <div className={styles.infosCOntainer}>
+                            <h5 className={styles.gridTitle}>
+                                {t('grid.title2')}
+                            </h5>
+                            <p className={styles.gridText}>{t('grid.desc2')}</p>
+                        </div>
+                        <div className={styles.infosCOntainer}>
+                            <h5 className={styles.gridTitle}>
+                                {t('grid.title3')}
+                            </h5>
+                            <p className={styles.gridText}>{t('grid.desc3')}</p>
                         </div>
                     </div>
                 </div>

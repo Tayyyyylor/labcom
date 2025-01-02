@@ -1,0 +1,12 @@
+@import '../../../app/[locale]/variables.scss';
+
+.slogan {
+    color: $newBlue;
+    font-family: 'helveticaMedium';
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.3;
+    @media screen and (max-width: $desktop) {
+        padding: 1rem;
+    }
+}

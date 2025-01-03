@@ -47,7 +47,7 @@ export default function News() {
                     return (
                         <div key={article.documentId} className={styles.new}>
                             <Link
-                                href={imageUrl}
+                                href={article.url}
                                 onMouseEnter={() =>
                                     setHoveredArticleId(article.documentId)
                                 }

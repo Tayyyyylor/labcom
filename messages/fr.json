@@ -7,7 +7,7 @@
     },
     "Homepage": {
         "news": "Actualités",
-        "optima": "OPTIMAA: OPTImisation des Microstructures et des Propriétés<br></br>Mécaniques d'Alliages Métalliques Obtenues par Fabrication Additive"
+        "optima": "OPTIMAA: OPTImisation des Microstructures et des Propriétés<br></br> Mécaniques d'Alliages Métalliques Obtenus par Fabrication Additive"
     },
     "Header": {
         "nav1": "Le projet",
@@ -61,7 +61,7 @@
     },
     "Team": {
         "title": "L' Équipe",
-        "subtitle": "Les experts du Titane",
+        "subtitle": "Les experts<br></br> du Titane",
         "desc": "Tout semble possible avec un labcom, à partir du moment où ceux qui se lancent dans cette aventure partagent une vision commune visant à faire avancer la science."
     },
     "Brands": {

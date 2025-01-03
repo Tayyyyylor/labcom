@@ -19,7 +19,9 @@ export default function Team() {
                     />
                 </div>
                 <div className={styles.textContainer}>
-                    <h3 className={styles.subtitle}>{t('subtitle')}</h3>
+                    <h3 className={styles.subtitle}>
+                        {t.rich('subtitle', { br: () => <br /> })}
+                    </h3>
                     <p className={styles.desc}>{t('desc')}</p>
                 </div>
             </section>

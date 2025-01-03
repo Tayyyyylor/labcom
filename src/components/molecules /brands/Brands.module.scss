@@ -6,6 +6,7 @@
     margin-bottom: 100px;
     p {
         text-align: justify;
+        line-height: 1.2;
         @media screen and (min-width: $desktop) {
             text-align: center;
             font-size: 14px;

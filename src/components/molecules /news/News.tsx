@@ -36,11 +36,7 @@ export default function News() {
 
     return (
         <article className={styles.news} id="news">
-            <Title
-                title={t('Homepage.news')}
-                hasLogo={false}
-                className={styles.titleNews}
-            />
+            <Title title={t('Homepage.news')} />
             <section className={styles.newsContainer}>
                 {news.map((article: any) => {
                     const imageUrl = `https://cms.labcom-optimaa.com${article.image.url}`
@@ -48,6 +44,7 @@ export default function News() {
                         <div key={article.documentId} className={styles.new}>
                             <Link
                                 href={article.url}
+                                target="_blank"
                                 onMouseEnter={() =>
                                     setHoveredArticleId(article.documentId)
                                 }

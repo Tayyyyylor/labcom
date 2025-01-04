@@ -29,7 +29,7 @@ export default function Brands() {
                 <p>{t.rich('text4', { br: () => (isMobile ? '' : <br />) })}</p>
                 <Image
                     className={styles.name}
-                    src="/madjid2.png"
+                    src="/madjid.png"
                     alt="madjid"
                     width={550}
                     height={330}
@@ -48,8 +48,8 @@ export default function Brands() {
                 <p>{t.rich('text9', { br: () => (isMobile ? '' : <br />) })}</p>
                 <Image
                     className={styles.name}
-                    src="/guy2.png"
-                    alt="madjid"
+                    src="/guy.png"
+                    alt="guy"
                     width={550}
                     height={330}
                 />

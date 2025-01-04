@@ -6,7 +6,7 @@ import Logo from '@/components/atoms/logo/Logo'
 export const Header = () => {
     return (
         <header className={styles.header}>
-            <Logo color="dark" width={150} height={60} />
+            <Logo color="dark" className={styles.logo} />
             <Navbar />
         </header>
     )

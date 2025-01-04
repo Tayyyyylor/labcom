@@ -4,18 +4,17 @@ import styles from './Logo.module.scss'
 
 interface LogoProps {
     color: string
-    width: number
-    height: number
+    className?: string
 }
 
-export default function Logo({ color, width, height }: LogoProps) {
+export default function Logo({ color, className }: LogoProps) {
     return (
         <Image
             src={color === 'white' ? '/logoblanc.png' : '/logobleu_optimaa.png'}
-            width={width}
-            height={height}
             alt="logo"
-            className={styles.logo}
+            width={300}
+            height={120}
+            className={`${styles.logo} ${className}`}
         />
     )
 }

@@ -28,6 +28,7 @@
         width: 100%;
         max-height: 331px;
         object-fit: cover;
+        position: relative;
         @media screen and (max-width: $tablet) {
             height: auto;
         }
@@ -60,6 +61,7 @@
         color: $darkBlue;
         font-size: 19px;
         font-family: 'helveticaMedium';
+        margin: 0;
     }
 
     .hover {

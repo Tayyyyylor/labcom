@@ -4,19 +4,13 @@ import { Contact } from '@/components/molecules /contact/Contact'
 import React from 'react'
 import styles from './Footer.module.scss'
 import { FollowUs } from '@/components/molecules /followUs/FollowUs'
-import useMobile from '@/hooks/useMobile'
 import Image from 'next/image'
 
 export const Footer = () => {
-    const isMobile = useMobile()
     return (
         <footer className={styles.footer} id="contact">
             <section className={styles.containerContact}>
-                <Logo
-                    color="white"
-                    width={isMobile ? 80 : 300}
-                    height={isMobile ? 40 : 120}
-                />
+                <Logo color="white" className={styles.logo} />
                 <Contact />
                 <FollowUs />
             </section>

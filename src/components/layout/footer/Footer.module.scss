@@ -20,7 +20,8 @@
 
     .containerCredits {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 10px;
         background-color: white;
         padding: 1rem;
         align-items: center;
@@ -41,5 +42,9 @@
             width: 100%;
             height: auto;
         }
+    }
+
+    .logo {
+        width: 300px;
     }
 }

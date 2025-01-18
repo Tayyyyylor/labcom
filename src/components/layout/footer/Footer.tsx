@@ -7,6 +7,8 @@ import { FollowUs } from '@/components/molecules /followUs/FollowUs'
 import Image from 'next/image'
 
 export const Footer = () => {
+    const currentYear = new Date().getFullYear()
+
     return (
         <footer className={styles.footer} id="contact">
             <section className={styles.containerContact}>
@@ -16,7 +18,7 @@ export const Footer = () => {
             </section>
             <section className={styles.containerCredits}>
                 <p className={styles.credits}>
-                    2024 LABCOM Optimaa / nuance productions
+                    {currentYear} LABCOM Optimaa / nuance productions
                 </p>
                 <Image
                     src="/logo_footer.png"

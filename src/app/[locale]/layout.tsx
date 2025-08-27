@@ -6,6 +6,7 @@ import './globals.scss'
 import { LayoutProps } from '../../../.next/types/app/layout'
 import localFont from 'next/font/local'
 import BaseLayout from '@/components/templates/baseLayout/BaseLayout'
+import { Analytics } from '@vercel/analytics/next'
 
 // const fontBlack = localFont({
 //     src: '../fonts/NeueHaasDisplayBlack.ttf',
@@ -58,6 +59,7 @@ export default async function HomeLayout({ children, params }: LayoutProps) {
             className={`${helveticaBold.variable} ${helveticaLight.variable} ${helveticaMedium.variable} ${helveticaRoman.variable} ${serifBold.variable} ${serifRegular.variable}`}
         >
             {children}
+            <Analytics />
         </BaseLayout>
     )
 }
